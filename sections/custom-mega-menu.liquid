@@ -1,0 +1,21 @@
+{% if section.settings.top_bar_menu != blank %}
+  {% for link in linklists[section.settings.custom-mega-menu].links %}
+    <li>
+      <a href="{{ link.url }}">{{ link.title }}</a>
+    </li>
+  {% endfor %}
+{% endif %}
+
+{% schema %}
+  {
+    "name": "Custom-mega-menu",
+    "class": "shopify-section--Custom-mega-menu",
+    "settings": [
+      {
+        "type": "link_list",
+        "id": "custom-mega-menu",
+        "label": "Menu"
+      }
+    ]
+  }
+{% endschema %}
