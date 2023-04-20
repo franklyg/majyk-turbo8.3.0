@@ -1,1 +1,649 @@
-{"current":{"performance":"ludicrous","image_loading_style":"blur-up","logo_color":"#ffffff","regular_color":"#333333","headline_color":"#333333","headline_footer_text_color":"#7f8c8d","sub_footer_text_color":"#6b6b6b","sale_color":"#d54d4d","was_price_color":"#8c8b8b","promo_text_color":"#ffffff","shop_home_page_content_text_color":"#363636","newsletter_popup_color":"#363636","newsletter_section_color":"#000000","top_bar_color":"#363636","top_bar_color_hover":"#213e95","nav_color":"#ffffff","nav_color_home":"#ffffff","nav_color_hover":"#a7b6e1","link_color":"#213e95","link_hover_color":"#213e95","sidebar_nav_color":"#363636","sidebar_nav_color_hover":"#213e95","sub_footer_link_color":"#7f8c8d","sub_footer_link_color_hover":"#ffffff","btn_color":"#213e95","btn_hover_color":"#142e7b","btn_text_color":"#ffffff","button_style":"rounded","read_more_style":"button","banner_button_color":"#ffffff","banner_color":"#ffffff","banner_background_color":"#1e1e1e","swatch_style":"rounded","table_styles_enabled":true,"slideshow_arrow_size":"light","arrow_color":"#333333","slideshow_button_style":true,"border_color":"#cccccc","headline_border_color":"#aaaaaa","headline_border":"1","divider_style":"solid","sub_footer_border_color":"#1b1f23","sale_banner_color":"#d54d4d","new_banner_color":"#213e95","sticker_style":"square","search_section_color":"#000000","search_section_bg_color":"#ffffff","testimonial_color":"#ffffff","testimonial_bg_color":"#666666","modal_background_color":"#ffffff","shop_bg_color":"#ffffff","repeat_bg":"repeat","bg_fixed":false,"bg_stretched":false,"top_bar_bg_color":"#ffffff","top_bar_cart_bg_color":"#ffffff","minicart_bg_color":"#ffffff","header_bg_color":"#161616","header_background":false,"transparent_header":false,"promo_bg_color":"#393939","shop_home_page_content_bg_color":"#ffffff","featured_links_background":"#ffffff","sub_footer_color":"#1b1f23","footer_bg":"","footer_bg_stretched":false,"newsletter_popup_background_color":"#ffffff","newsletter_section_background_color":"#cccccc","password_page_text_color":"#333333","password_page_background_color":"#FFFFFF","logo__font":"abril_fatface_n4","logo_font_style":"uppercase","logo_font_size":20,"top_bar_font_size":12,"top_bar_letter_spacing":1,"nav__font":"inter_n4","nav_font_style":"none","nav_font_size":15,"nav_letter_spacing":0,"nav_shadow":false,"button_weight":"normal","button_font_style":"none","button_font_size":14,"mega_text_letter_spacing":0,"headline__font":"source_sans_pro_n6","headline_font_style":"none","headline_font_size":32,"headline_letter_spacing":0,"slideshow_headline__font":"oswald_n3","slideshow_headline_font_style":"uppercase","slideshow_headline_size":56,"slideshow_headline_letter_spacing":0,"slideshow_subtitle__font":"roboto_n3","slideshow_subtitle_font_style":"uppercase","slideshow_subtitle_size":18,"slideshow_subtitle_letter_spacing":0,"slideshow_shadow":false,"regular__font":"roboto_n4","regular_font_style":"none","regular_font_size":15,"footer_font_size":13,"mega_menu_1":true,"mega_menu_2":true,"mega_menu_3":true,"mega_menu_4":true,"mega_menu_5":true,"search_option":"product,page,article","enable_autocomplete":true,"product_form_style":"radio","display_product_quantity":true,"limit_quantity":true,"display_inventory_left":false,"notify_me_form":false,"display_vendor":false,"collection_swatches":true,"sale_banner_enabled":true,"thumbnail_hover_enabled":false,"mobile_products_per_row":"2","free_price_text":"Free","pagination_type":"load_more","collection_secondary_image":false,"align_height":false,"collection_height":200,"quick_shop_enabled":true,"quick_shop_style":"popup","cart_action":"ajax","show_lock_icon":true,"display_tos_checkbox":false,"tos_page":"","go_to_checkout":true,"display_special_instructions":false,"cart_message":"","show_shipping_calculator":false,"shipping_calculator_default_country":"United States","currency_format":"money_format","show_multiple_currencies":false,"supported_currencies":"USD CAD AUD GBP EUR JPY","default_currency":"USD","mailchimp_link":"","newsletter_popup":false,"newsletter_popup_form":true,"display_first_name":false,"display_last_name":false,"use_newsletter_border":false,"newsletter_bg":"","newsletter_popup_image_align":"left","newsletter_popup_title":"Sign up today","newsletter_popup_text":"<p><\/p>","newsletter_popup_text_align":"center","newsletter_popup_seconds":0,"newsletter_popup_days":"14","behance_link":"","clubhouse_link":"","discord_link":"","email_link":"","facebook_link":"https:\/\/www.facebook.com\/MajykEquipe","flickr_link":"","houzz_link":"","instagram_link":"https:\/\/www.instagram.com\/majykequipe","kickstarter_link":"","linkedin_link":"","medium_link":"","messenger_link":"","opensea_link":"","pinterest_link":"","reddit_link":"","rss_link":"","snapchat_link":"","spotify_link":"","tiktok_link":"https:\/\/www.tiktok.com\/@majykequipe","tumblr_link":"","twitch_link":"","twitter_link":"","vimeo_link":"","whatsapp_link":"","youtube_link":"https:\/\/www.youtube.com\/channel\/UChlPxprKGnuUk3qIGfUSSkA","disqus_enabled":false,"disqus_shortname":"","enable_shopify_review_comments":false,"enable_shopify_collection_badges":false,"tikok_link":"","dribble_link":"","sections":{"header":{"type":"header","custom_css":[".top-bar__menu > li > a {pointer-events: none;}",".top-bar__menu {justify-content: center;}"],"settings":{"promo_text":"<p><em>Free Shipping on all orders over $75 (US) FREE EXCHANGES (US)<\/em><\/p>","social_icons_header":true,"phone_number":"Free Shipping on all orders over $75 (US) FREE EXCHANGES (US)","top_bar_menu":"","show_cart":true,"cart_icon":"cart","show_locale_selector":false,"show_currency_selector":false,"logo_display_width":205,"logo":"shopify:\/\/shop_images\/Word_in_white_inline.png","logo_mobile":"shopify:\/\/shop_images\/Word_inline.png","main_linklist":"navigation-menu","main_linklist2":"","vertical_menu":false,"dropdown_click":false,"search_enabled":true,"fixed_header":true,"logo_position":"left","logo_alignment":"center","menu_position":"inline","menu_alignment":"center"}},"footer":{"type":"footer","blocks":{"footer-0":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/layer1_2.png","text_align":"left","social_icons_footer":false}},"footer-2":{"type":"link_list","settings":{"menu":"navigation-menu","social_icons_footer":false}},"footer-1":{"type":"link_list","settings":{"menu":"footer","social_icons_footer":false}},"footer-3":{"type":"text","settings":{"title":"Socials","content":"<p>Keep up to date online for videos, images, news, and more.<\/p>","social_icons_footer":true}},"8c8fc9ed-1d53-4d9f-8979-299ff6b8fc22":{"type":"empty","settings":{"social_icons_footer":false}}},"block_order":["footer-0","footer-2","footer-1","footer-3","8c8fc9ed-1d53-4d9f-8979-299ff6b8fc22"],"settings":{"copyright_text":"","display_designed_by":false,"display_payment_methods":true,"show_locale_selector":false,"show_currency_selector":false}},"mega-menu-1":{"type":"mega-menu-1","blocks":{"mega-menu-1-0":{"type":"column","settings":{"richtext_top":"","image_caption_top":"","image_link_top":"","menu_1":"boots","menu_1_link":"shopify:\/\/collections\/all-boots","menu_2":"","menu_2_link":"","menu_3":"","menu_3_link":"","menu_4":"","menu_4_link":"","image_caption_bottom":"","image_link_bottom":"","richtext_bottom":""}},"mega-menu-1-1":{"type":"column","settings":{"richtext_top":"","image_caption_top":"","image_link_top":"","menu_1":"saddle-pads","menu_1_link":"shopify:\/\/collections\/saddle-pads","menu_2":"","menu_2_link":"","menu_3":"","menu_3_link":"","menu_4":"","menu_4_link":"","image_caption_bottom":"","image_link_bottom":"","richtext_bottom":""}},"mega-menu-1-2":{"type":"column","settings":{"richtext_top":"","image_caption_top":"","image_link_top":"","menu_1":"girths","menu_1_link":"shopify:\/\/collections\/girths","menu_2":"","menu_2_link":"","menu_3":"","menu_3_link":"","menu_4":"","menu_4_link":"","image_caption_bottom":"","image_link_bottom":"","richtext_bottom":""}},"mega-menu-1-3":{"type":"column","settings":{"richtext_top":"","image_caption_top":"","image_link_top":"","menu_1":"special-offers","menu_1_link":"shopify:\/\/collections\/accessories","menu_2":"","menu_2_link":"","menu_3":"","menu_3_link":"","menu_4":"","menu_4_link":"","image_caption_bottom":"","image_link_bottom":"","richtext_bottom":""}},"mega-menu-1-4":{"type":"column","settings":{"richtext_top":"","image_caption_top":"","image_link_top":"","menu_1":"boyd-martin-series","menu_1_link":"shopify:\/\/collections\/boyd-martin-series","menu_2":"","menu_2_link":"","menu_3":"","menu_3_link":"","menu_4":"","menu_4_link":"","image_caption_bottom":"","image_link_bottom":"","richtext_bottom":""}},"69e72abc-c86c-4657-9aa5-d92e288c39a3":{"type":"column","settings":{"richtext_top":"","image_caption_top":"","image_link_top":"","menu_1":"ergonomics","menu_1_link":"shopify:\/\/collections\/ergonomics","menu_2":"","menu_2_link":"","menu_3":"","menu_3_link":"","menu_4":"","menu_4_link":"","image_caption_bottom":"","image_link_bottom":"","richtext_bottom":""}},"d029a244-da17-47b1-9439-ce8721a0cfcb":{"type":"column","settings":{"richtext_top":"","image_caption_top":"","image_link_top":"","menu_1":"pony-small-horse","menu_1_link":"shopify:\/\/collections\/pony-small-horse","menu_2":"","menu_2_link":"","menu_3":"","menu_3_link":"","menu_4":"","menu_4_link":"","image_caption_bottom":"","image_link_bottom":"","richtext_bottom":""}},"277a68f7-6251-49ab-8310-1b9f727a85e5":{"type":"column","settings":{"richtext_top":"","image_caption_top":"","image_link_top":"","menu_1":"team-wear","menu_1_link":"shopify:\/\/collections\/frontpage","menu_2":"","menu_2_link":"","menu_3":"","menu_3_link":"","menu_4":"","menu_4_link":"","image_caption_bottom":"","image_link_bottom":"","richtext_bottom":""}}},"block_order":["mega-menu-1-0","mega-menu-1-1","mega-menu-1-2","mega-menu-1-3","mega-menu-1-4","69e72abc-c86c-4657-9aa5-d92e288c39a3","d029a244-da17-47b1-9439-ce8721a0cfcb","277a68f7-6251-49ab-8310-1b9f727a85e5"],"custom_css":[],"settings":{"parent":"Shop"}},"mega-menu-2":{"type":"mega-menu-2","blocks":{"adba5ab5-779f-458a-bef7-27ea8705281e":{"type":"column","settings":{"richtext_top":"","image_caption_top":"","image_link_top":"","menu_1":"","menu_1_link":"","menu_2":"","menu_2_link":"","menu_3":"","menu_3_link":"","menu_4":"","menu_4_link":"","image_caption_bottom":"","image_link_bottom":"","richtext_bottom":""}},"mega-menu-2-0":{"type":"column","settings":{"richtext_top":"","image_caption_top":"","image_link_top":"","menu_1":"technology","menu_1_link":"shopify:\/\/pages\/horse-protection-technology","menu_2":"","menu_2_link":"","menu_3":"","menu_3_link":"","menu_4":"","menu_4_link":"","image_caption_bottom":"","image_link_bottom":"","richtext_bottom":""}}},"block_order":["adba5ab5-779f-458a-bef7-27ea8705281e","mega-menu-2-0"],"settings":{"parent":"TECHNOLOGY"}},"mega-menu-3":{"type":"mega-menu-3","blocks":{"8da8c2c5-c43f-4b08-9d0e-5ef51155b1e1":{"type":"column","settings":{"richtext_top":"","image_caption_top":"","image_link_top":"","menu_1":"","menu_1_link":"","menu_2":"","menu_2_link":"","menu_3":"","menu_3_link":"","menu_4":"","menu_4_link":"","image_caption_bottom":"","image_link_bottom":"","richtext_bottom":""}},"mega-menu-3-0":{"type":"column","settings":{"richtext_top":"","image_caption_top":"","image_link_top":"","menu_1":"about-us","menu_1_link":"shopify:\/\/pages\/about-us","menu_2":"","menu_2_link":"","menu_3":"","menu_3_link":"","menu_4":"","menu_4_link":"","image_caption_bottom":"","image_link_bottom":"","richtext_bottom":""}}},"block_order":["8da8c2c5-c43f-4b08-9d0e-5ef51155b1e1","mega-menu-3-0"],"settings":{"parent":"ABOUT US"}},"mega-menu-4":{"type":"mega-menu-4","blocks":{"mega-menu-4-0":{"type":"column","settings":{"richtext_top":"","image_caption_top":"","image_link_top":"","menu_1":"","menu_1_link":"","menu_2":"","menu_2_link":"","menu_3":"","menu_3_link":"","menu_4":"","menu_4_link":"","image_caption_bottom":"","image_link_bottom":"","richtext_bottom":""}},"mega-menu-4-4":{"type":"column","settings":{"richtext_top":"","image_caption_top":"","image_link_top":"","menu_1":"care-warranty","menu_1_link":"shopify:\/\/pages\/care-for-your-products","menu_2":"","menu_2_link":"","menu_3":"","menu_3_link":"","menu_4":"","menu_4_link":"","image_caption_bottom":"","image_link_bottom":"","richtext_bottom":""}}},"block_order":["mega-menu-4-0","mega-menu-4-4"],"settings":{"parent":"Care & Warranty"}},"mega-menu-5":{"type":"mega-menu-5","blocks":{"mega-menu-5-0":{"type":"column","settings":{"richtext_top":"","image_caption_top":"","image_link_top":"","menu_1":"","menu_1_link":"","menu_2":"","menu_2_link":"","menu_3":"","menu_3_link":"","menu_4":"","menu_4_link":"","image_caption_bottom":"","image_link_bottom":"","richtext_bottom":""}},"mega-menu-5-1":{"type":"column","settings":{"richtext_top":"","image_caption_top":"","image_link_top":"","menu_1":"account","menu_1_link":"https:\/\/majykequipe.com\/account","menu_2":"","menu_2_link":"","menu_3":"","menu_3_link":"","menu_4":"","menu_4_link":"","image_caption_bottom":"","image_link_bottom":"","richtext_bottom":""}}},"block_order":["mega-menu-5-0","mega-menu-5-1"],"settings":{"parent":"Account"}}},"content_for_index":[]}}
+{
+  "current": {
+    "performance": "ludicrous",
+    "image_loading_style": "blur-up",
+    "logo_color": "#ffffff",
+    "regular_color": "#333333",
+    "headline_color": "#333333",
+    "headline_footer_text_color": "#7f8c8d",
+    "sub_footer_text_color": "#6b6b6b",
+    "sale_color": "#d54d4d",
+    "was_price_color": "#8c8b8b",
+    "promo_text_color": "#ffffff",
+    "shop_home_page_content_text_color": "#363636",
+    "newsletter_popup_color": "#363636",
+    "newsletter_section_color": "#000000",
+    "top_bar_color": "#363636",
+    "top_bar_color_hover": "#213e95",
+    "nav_color": "#ffffff",
+    "nav_color_home": "#ffffff",
+    "nav_color_hover": "#a7b6e1",
+    "link_color": "#213e95",
+    "link_hover_color": "#213e95",
+    "sidebar_nav_color": "#363636",
+    "sidebar_nav_color_hover": "#213e95",
+    "sub_footer_link_color": "#7f8c8d",
+    "sub_footer_link_color_hover": "#ffffff",
+    "btn_color": "#213e95",
+    "btn_hover_color": "#142e7b",
+    "btn_text_color": "#ffffff",
+    "button_style": "rounded",
+    "read_more_style": "button",
+    "banner_button_color": "#ffffff",
+    "banner_color": "#ffffff",
+    "banner_background_color": "#1e1e1e",
+    "swatch_style": "rounded",
+    "table_styles_enabled": true,
+    "slideshow_arrow_size": "light",
+    "arrow_color": "#333333",
+    "slideshow_button_style": true,
+    "border_color": "#cccccc",
+    "headline_border_color": "#aaaaaa",
+    "headline_border": "1",
+    "divider_style": "solid",
+    "sub_footer_border_color": "#1b1f23",
+    "sale_banner_color": "#d54d4d",
+    "new_banner_color": "#213e95",
+    "sticker_style": "square",
+    "search_section_color": "#000000",
+    "search_section_bg_color": "#ffffff",
+    "testimonial_color": "#ffffff",
+    "testimonial_bg_color": "#666666",
+    "modal_background_color": "#ffffff",
+    "shop_bg_color": "#ffffff",
+    "repeat_bg": "repeat",
+    "bg_fixed": false,
+    "bg_stretched": false,
+    "top_bar_bg_color": "#ffffff",
+    "top_bar_cart_bg_color": "#ffffff",
+    "minicart_bg_color": "#ffffff",
+    "header_bg_color": "#161616",
+    "header_background": false,
+    "transparent_header": false,
+    "promo_bg_color": "#393939",
+    "shop_home_page_content_bg_color": "#ffffff",
+    "featured_links_background": "#ffffff",
+    "sub_footer_color": "#1b1f23",
+    "footer_bg": "",
+    "footer_bg_stretched": false,
+    "newsletter_popup_background_color": "#ffffff",
+    "newsletter_section_background_color": "#cccccc",
+    "password_page_text_color": "#333333",
+    "password_page_background_color": "#FFFFFF",
+    "logo__font": "abril_fatface_n4",
+    "logo_font_style": "uppercase",
+    "logo_font_size": 20,
+    "top_bar_font_size": 12,
+    "top_bar_letter_spacing": 1,
+    "nav__font": "inter_n4",
+    "nav_font_style": "none",
+    "nav_font_size": 15,
+    "nav_letter_spacing": 0,
+    "nav_shadow": false,
+    "button_weight": "normal",
+    "button_font_style": "none",
+    "button_font_size": 14,
+    "mega_text_letter_spacing": 0,
+    "headline__font": "source_sans_pro_n6",
+    "headline_font_style": "none",
+    "headline_font_size": 32,
+    "headline_letter_spacing": 0,
+    "slideshow_headline__font": "oswald_n3",
+    "slideshow_headline_font_style": "uppercase",
+    "slideshow_headline_size": 56,
+    "slideshow_headline_letter_spacing": 0,
+    "slideshow_subtitle__font": "roboto_n3",
+    "slideshow_subtitle_font_style": "uppercase",
+    "slideshow_subtitle_size": 18,
+    "slideshow_subtitle_letter_spacing": 0,
+    "slideshow_shadow": false,
+    "regular__font": "roboto_n4",
+    "regular_font_style": "none",
+    "regular_font_size": 15,
+    "footer_font_size": 13,
+    "mega_menu_1": true,
+    "mega_menu_2": true,
+    "mega_menu_3": true,
+    "mega_menu_4": true,
+    "mega_menu_5": true,
+    "search_option": "product,page,article",
+    "enable_autocomplete": true,
+    "product_form_style": "radio",
+    "display_product_quantity": true,
+    "limit_quantity": true,
+    "display_inventory_left": false,
+    "notify_me_form": false,
+    "display_vendor": false,
+    "collection_swatches": true,
+    "sale_banner_enabled": true,
+    "thumbnail_hover_enabled": false,
+    "mobile_products_per_row": "2",
+    "free_price_text": "Free",
+    "pagination_type": "load_more",
+    "collection_secondary_image": false,
+    "align_height": false,
+    "collection_height": 200,
+    "quick_shop_enabled": true,
+    "quick_shop_style": "popup",
+    "cart_action": "ajax",
+    "show_lock_icon": true,
+    "display_tos_checkbox": false,
+    "tos_page": "",
+    "go_to_checkout": true,
+    "display_special_instructions": false,
+    "cart_message": "",
+    "show_shipping_calculator": false,
+    "shipping_calculator_default_country": "United States",
+    "currency_format": "money_format",
+    "show_multiple_currencies": false,
+    "supported_currencies": "USD CAD AUD GBP EUR JPY",
+    "default_currency": "USD",
+    "mailchimp_link": "",
+    "newsletter_popup": true,
+    "newsletter_popup_form": true,
+    "display_first_name": false,
+    "display_last_name": false,
+    "use_newsletter_border": false,
+    "newsletter_bg": "shopify:\/\/shop_images\/Zoey_and_Yulia_seated_with_horse_suglasses_Mobile.webp",
+    "newsletter_popup_image_align": "left",
+    "newsletter_popup_title": "Sign up today",
+    "newsletter_popup_text": "<p>Sign up for special VIP offers  <\/p><p><\/p>",
+    "newsletter_popup_text_align": "center",
+    "newsletter_popup_seconds": 2,
+    "newsletter_popup_days": "0",
+    "behance_link": "",
+    "clubhouse_link": "",
+    "discord_link": "",
+    "email_link": "",
+    "facebook_link": "https:\/\/www.facebook.com\/MajykEquipe",
+    "flickr_link": "",
+    "houzz_link": "",
+    "instagram_link": "https:\/\/www.instagram.com\/majykequipe",
+    "kickstarter_link": "",
+    "linkedin_link": "",
+    "medium_link": "",
+    "messenger_link": "",
+    "opensea_link": "",
+    "pinterest_link": "",
+    "reddit_link": "",
+    "rss_link": "",
+    "snapchat_link": "",
+    "spotify_link": "",
+    "tiktok_link": "https:\/\/www.tiktok.com\/@majykequipe",
+    "tumblr_link": "",
+    "twitch_link": "",
+    "twitter_link": "",
+    "vimeo_link": "",
+    "whatsapp_link": "",
+    "youtube_link": "https:\/\/www.youtube.com\/channel\/UChlPxprKGnuUk3qIGfUSSkA",
+    "disqus_enabled": false,
+    "disqus_shortname": "",
+    "enable_shopify_review_comments": false,
+    "enable_shopify_collection_badges": false,
+    "tikok_link": "",
+    "dribble_link": "",
+    "sections": {
+      "header": {
+        "type": "header",
+        "custom_css": [
+          ".top-bar__menu > li > a {pointer-events: none;}",
+          ".top-bar__menu {justify-content: center;}"
+        ],
+        "settings": {
+          "promo_text": "<p><em>Free Shipping on all orders over $75 (US) FREE EXCHANGES (US)<\/em><\/p>",
+          "social_icons_header": true,
+          "phone_number": "Free Shipping on all orders over $75 (US) FREE EXCHANGES (US)",
+          "top_bar_menu": "",
+          "show_cart": true,
+          "cart_icon": "cart",
+          "show_locale_selector": false,
+          "show_currency_selector": false,
+          "logo_display_width": 205,
+          "logo": "shopify:\/\/shop_images\/Word_in_white_inline.png",
+          "logo_mobile": "shopify:\/\/shop_images\/Word_inline.png",
+          "main_linklist": "navigation-menu",
+          "main_linklist2": "",
+          "vertical_menu": false,
+          "dropdown_click": false,
+          "search_enabled": true,
+          "fixed_header": true,
+          "logo_position": "left",
+          "logo_alignment": "center",
+          "menu_position": "inline",
+          "menu_alignment": "center"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/layer1_2.png",
+              "text_align": "left",
+              "social_icons_footer": false
+            }
+          },
+          "footer-2": {
+            "type": "link_list",
+            "settings": {
+              "menu": "navigation-menu",
+              "social_icons_footer": false
+            }
+          },
+          "footer-1": {
+            "type": "link_list",
+            "settings": {
+              "menu": "footer",
+              "social_icons_footer": false
+            }
+          },
+          "footer-3": {
+            "type": "text",
+            "settings": {
+              "title": "Socials",
+              "content": "<p>Keep up to date online for videos, images, news, and more.<\/p>",
+              "social_icons_footer": true
+            }
+          },
+          "8c8fc9ed-1d53-4d9f-8979-299ff6b8fc22": {
+            "type": "empty",
+            "settings": {
+              "social_icons_footer": false
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "footer-2",
+          "footer-1",
+          "footer-3",
+          "8c8fc9ed-1d53-4d9f-8979-299ff6b8fc22"
+        ],
+        "settings": {
+          "copyright_text": "",
+          "display_designed_by": false,
+          "display_payment_methods": true,
+          "show_locale_selector": false,
+          "show_currency_selector": false
+        }
+      },
+      "mega-menu-1": {
+        "type": "mega-menu-1",
+        "blocks": {
+          "mega-menu-1-0": {
+            "type": "column",
+            "settings": {
+              "richtext_top": "",
+              "image_caption_top": "",
+              "image_link_top": "",
+              "menu_1": "boots",
+              "menu_1_link": "shopify:\/\/collections\/all-boots",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_caption_bottom": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "mega-menu-1-1": {
+            "type": "column",
+            "settings": {
+              "richtext_top": "",
+              "image_caption_top": "",
+              "image_link_top": "",
+              "menu_1": "saddle-pads",
+              "menu_1_link": "shopify:\/\/collections\/saddle-pads",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_caption_bottom": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "mega-menu-1-2": {
+            "type": "column",
+            "settings": {
+              "richtext_top": "",
+              "image_caption_top": "",
+              "image_link_top": "",
+              "menu_1": "girths",
+              "menu_1_link": "shopify:\/\/collections\/girths",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_caption_bottom": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "mega-menu-1-3": {
+            "type": "column",
+            "settings": {
+              "richtext_top": "",
+              "image_caption_top": "",
+              "image_link_top": "",
+              "menu_1": "special-offers",
+              "menu_1_link": "shopify:\/\/collections\/accessories",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_caption_bottom": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "mega-menu-1-4": {
+            "type": "column",
+            "settings": {
+              "richtext_top": "",
+              "image_caption_top": "",
+              "image_link_top": "",
+              "menu_1": "boyd-martin-series",
+              "menu_1_link": "shopify:\/\/collections\/boyd-martin-series",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_caption_bottom": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "69e72abc-c86c-4657-9aa5-d92e288c39a3": {
+            "type": "column",
+            "settings": {
+              "richtext_top": "",
+              "image_caption_top": "",
+              "image_link_top": "",
+              "menu_1": "ergonomics",
+              "menu_1_link": "shopify:\/\/collections\/ergonomics",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_caption_bottom": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "d029a244-da17-47b1-9439-ce8721a0cfcb": {
+            "type": "column",
+            "settings": {
+              "richtext_top": "",
+              "image_caption_top": "",
+              "image_link_top": "",
+              "menu_1": "pony-small-horse",
+              "menu_1_link": "shopify:\/\/collections\/pony-small-horse",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_caption_bottom": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "277a68f7-6251-49ab-8310-1b9f727a85e5": {
+            "type": "column",
+            "settings": {
+              "richtext_top": "",
+              "image_caption_top": "",
+              "image_link_top": "",
+              "menu_1": "team-wear",
+              "menu_1_link": "shopify:\/\/collections\/frontpage",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_caption_bottom": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          }
+        },
+        "block_order": [
+          "mega-menu-1-0",
+          "mega-menu-1-1",
+          "mega-menu-1-2",
+          "mega-menu-1-3",
+          "mega-menu-1-4",
+          "69e72abc-c86c-4657-9aa5-d92e288c39a3",
+          "d029a244-da17-47b1-9439-ce8721a0cfcb",
+          "277a68f7-6251-49ab-8310-1b9f727a85e5"
+        ],
+        "custom_css": [
+
+        ],
+        "settings": {
+          "parent": "Shop"
+        }
+      },
+      "mega-menu-2": {
+        "type": "mega-menu-2",
+        "blocks": {
+          "adba5ab5-779f-458a-bef7-27ea8705281e": {
+            "type": "column",
+            "settings": {
+              "richtext_top": "",
+              "image_caption_top": "",
+              "image_link_top": "",
+              "menu_1": "",
+              "menu_1_link": "",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_caption_bottom": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "mega-menu-2-0": {
+            "type": "column",
+            "settings": {
+              "richtext_top": "",
+              "image_caption_top": "",
+              "image_link_top": "",
+              "menu_1": "technology",
+              "menu_1_link": "shopify:\/\/pages\/horse-protection-technology",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_caption_bottom": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          }
+        },
+        "block_order": [
+          "adba5ab5-779f-458a-bef7-27ea8705281e",
+          "mega-menu-2-0"
+        ],
+        "settings": {
+          "parent": "TECHNOLOGY"
+        }
+      },
+      "mega-menu-3": {
+        "type": "mega-menu-3",
+        "blocks": {
+          "8da8c2c5-c43f-4b08-9d0e-5ef51155b1e1": {
+            "type": "column",
+            "settings": {
+              "richtext_top": "",
+              "image_caption_top": "",
+              "image_link_top": "",
+              "menu_1": "",
+              "menu_1_link": "",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_caption_bottom": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "mega-menu-3-0": {
+            "type": "column",
+            "settings": {
+              "richtext_top": "",
+              "image_caption_top": "",
+              "image_link_top": "",
+              "menu_1": "about-us",
+              "menu_1_link": "shopify:\/\/pages\/about-us",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_caption_bottom": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          }
+        },
+        "block_order": [
+          "8da8c2c5-c43f-4b08-9d0e-5ef51155b1e1",
+          "mega-menu-3-0"
+        ],
+        "settings": {
+          "parent": "ABOUT US"
+        }
+      },
+      "mega-menu-4": {
+        "type": "mega-menu-4",
+        "blocks": {
+          "mega-menu-4-0": {
+            "type": "column",
+            "settings": {
+              "richtext_top": "",
+              "image_caption_top": "",
+              "image_link_top": "",
+              "menu_1": "",
+              "menu_1_link": "",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_caption_bottom": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "mega-menu-4-4": {
+            "type": "column",
+            "settings": {
+              "richtext_top": "",
+              "image_caption_top": "",
+              "image_link_top": "",
+              "menu_1": "care-warranty",
+              "menu_1_link": "shopify:\/\/pages\/care-for-your-products",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_caption_bottom": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          }
+        },
+        "block_order": [
+          "mega-menu-4-0",
+          "mega-menu-4-4"
+        ],
+        "settings": {
+          "parent": "Care & Warranty"
+        }
+      },
+      "mega-menu-5": {
+        "type": "mega-menu-5",
+        "blocks": {
+          "mega-menu-5-0": {
+            "type": "column",
+            "settings": {
+              "richtext_top": "",
+              "image_caption_top": "",
+              "image_link_top": "",
+              "menu_1": "",
+              "menu_1_link": "",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_caption_bottom": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "mega-menu-5-1": {
+            "type": "column",
+            "settings": {
+              "richtext_top": "",
+              "image_caption_top": "",
+              "image_link_top": "",
+              "menu_1": "account",
+              "menu_1_link": "https:\/\/majykequipe.com\/account",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_caption_bottom": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          }
+        },
+        "block_order": [
+          "mega-menu-5-0",
+          "mega-menu-5-1"
+        ],
+        "settings": {
+          "parent": "Account"
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  }
+}
