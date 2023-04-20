@@ -563,6 +563,7 @@
     },
     "blog-posts-1": {
       "type": "blog-posts",
+      "disabled": true,
       "custom_css": [
         ".container .column {display: flex; flex-direction: column; justify-content: space-between; text-align: left;}",
         ".sub_title {width: 100%;}",
