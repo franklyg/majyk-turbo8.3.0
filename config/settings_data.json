@@ -659,7 +659,7 @@
       },
       "2777577667010953021": {
         "type": "shopify:\/\/apps\/shoppable-videos-popup-video\/blocks\/app-embed-block\/102afb79-84a5-4a68-b521-b6161f958d5d",
-        "disabled": true,
+        "disabled": false,
         "settings": {
         }
       }
