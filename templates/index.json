@@ -341,11 +341,24 @@
             "bg_color": "rgba(0,0,0,0)",
             "text_color": "rgba(0,0,0,0)"
           }
+        },
+        "287d547e-38a5-4608-9902-714f9d432e67": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/polo_valley_with_dog_cropped_small_b7f4be90-eb7a-435b-9adb-a17e614a87db.jpg",
+            "title": "CALIFORNIA DREAMIN'",
+            "text": "<p>Promotion description appears here.<\/p>",
+            "button_label": "View all",
+            "link": "",
+            "bg_color": "",
+            "text_color": ""
+          }
         }
       },
       "block_order": [
         "block-1",
-        "block-2"
+        "block-2",
+        "287d547e-38a5-4608-9902-714f9d432e67"
       ],
       "settings": {
         "wide_display": false,
