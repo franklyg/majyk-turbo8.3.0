@@ -284,8 +284,8 @@
               "image_link_top": "",
               "menu_1": "boots",
               "menu_1_link": "shopify:\/\/collections\/all-boots",
-              "menu_2": "",
-              "menu_2_link": "",
+              "menu_2": "boyd-martin-series",
+              "menu_2_link": "shopify:\/\/collections\/boyd-martin-series",
               "menu_3": "",
               "menu_3_link": "",
               "menu_4": "",
@@ -322,8 +322,8 @@
               "image_link_top": "",
               "menu_1": "girths",
               "menu_1_link": "shopify:\/\/collections\/girths",
-              "menu_2": "",
-              "menu_2_link": "",
+              "menu_2": "pony-small-horse",
+              "menu_2_link": "shopify:\/\/collections\/pony-small-horse",
               "menu_3": "",
               "menu_3_link": "",
               "menu_4": "",
@@ -354,6 +354,7 @@
           },
           "mega-menu-1-4": {
             "type": "column",
+            "disabled": true,
             "settings": {
               "richtext_top": "",
               "image_caption_top": "",
@@ -373,6 +374,7 @@
           },
           "69e72abc-c86c-4657-9aa5-d92e288c39a3": {
             "type": "column",
+            "disabled": true,
             "settings": {
               "richtext_top": "",
               "image_caption_top": "",
@@ -392,6 +394,7 @@
           },
           "d029a244-da17-47b1-9439-ce8721a0cfcb": {
             "type": "column",
+            "disabled": true,
             "settings": {
               "richtext_top": "",
               "image_caption_top": "",
@@ -411,6 +414,7 @@
           },
           "277a68f7-6251-49ab-8310-1b9f727a85e5": {
             "type": "column",
+            "disabled": true,
             "settings": {
               "richtext_top": "",
               "image_caption_top": "",
