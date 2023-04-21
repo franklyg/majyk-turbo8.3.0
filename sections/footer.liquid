@@ -159,7 +159,7 @@
               {% if block.settings.menu != blank %}
                 <h6>
                   {% comment %} {{ linklists[block.settings.menu.title] -}} {% endcomment %}
-                  Quick Links
+                  {% if block.settings.remove_heading == false %}Quick Links{% endif %}
                   <span class="right icon-down-arrow"></span>
                 </h6>
 
@@ -412,6 +412,12 @@
           "type": "checkbox",
           "id": "social_icons_footer",
           "label": "Show social media footer icons",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "remove_heading",
+          "label": "Remove the heading for this menu",
           "default": false
         }
       ]
