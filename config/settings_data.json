@@ -98,7 +98,7 @@
     "slideshow_subtitle_size": 18,
     "slideshow_subtitle_letter_spacing": 0,
     "slideshow_shadow": false,
-    "regular__font": "serif",
+    "regular__font": "sans-serif",
     "regular_font_style": "none",
     "regular_font_size": 14,
     "footer_font_size": 13,
@@ -233,7 +233,6 @@
             "type": "link_list",
             "settings": {
               "menu": "navigation-menu",
-              "menuTitle": "Quick Links",
               "social_icons_footer": false
             }
           },
