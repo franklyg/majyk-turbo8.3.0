@@ -166,7 +166,11 @@
                 {% endif %}
 
                 <div class="toggle_content">
-                  <ul>
+                  <ul
+                    {% if block.settings.remove_heading %}
+                      style="padding: 0;"
+                    {% endif %}
+                  >
                     {% for link in linklists[block.settings.menu].links %}
                       <li>
                         <p>
