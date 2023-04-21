@@ -156,7 +156,7 @@
             </div>
           {% elsif block.type == 'link_list' %}
             <div class="footer_menu">
-              {% if block.settings.menu != blank && block.settings.remove_heading == false %}
+              {% if block.settings.menu != blank and block.settings.remove_heading == false %}
                 <h6>
                   {% comment %} {{ linklists[block.settings.menu.title] -}} {% endcomment %}
                   Quick Links
