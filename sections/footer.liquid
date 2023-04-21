@@ -156,12 +156,14 @@
             </div>
           {% elsif block.type == 'link_list' %}
             <div class="footer_menu">
-              {% if block.settings.menu != blank and block.settings.remove_heading == false %}
-                <h6>
-                  {% comment %} {{ linklists[block.settings.menu.title] -}} {% endcomment %}
-                  Quick Links
-                  <span class="right icon-down-arrow"></span>
-                </h6>
+              {% if block.settings.menu != blank %}
+                {% if block.settings.remove_heading == false %}
+                  <h6>
+                    {% comment %} {{ linklists[block.settings.menu.title] -}} {% endcomment %}
+                    Quick Links
+                    <span class="right icon-down-arrow"></span>
+                  </h6>
+                {% endif %}
 
                 <div class="toggle_content">
                   <ul>
