@@ -129,6 +129,8 @@
               data-html5-video
               {% if section.settings.autoplay %}
                 autoplay
+                muted
+                loop
               {% endif %}
             >
               <source src="{{ section.settings.html5_video }}">
