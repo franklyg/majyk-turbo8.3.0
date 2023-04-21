@@ -124,7 +124,9 @@
           {% if shop.customer_accounts_enabled %}
             {% if customer %}
               <li>
-                <a href="{{ routes.account_url }}" data-no-instant>{{ customer.name }}</a>
+                <a style="pointer-events: all; !important" href="{{ routes.account_url }}" data-no-instant>
+                  {{- customer.name -}}
+                </a>
               </li>
 
               <li data-no-instant>
