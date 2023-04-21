@@ -191,7 +191,6 @@
       "header": {
         "type": "header",
         "custom_css": [
-          ".top-bar__menu > li > a {pointer-events: none;}",
           ".top-bar__menu {justify-content: center;}"
         ],
         "settings": {
