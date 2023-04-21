@@ -2,8 +2,7 @@
   type="application/json"
   data-section-type="footer"
   data-section-id="{{ section.id }}"
->
-</script>
+></script>
 
 {%- assign locale_selector = false -%}
 {%- assign currency_selector = false -%}
@@ -20,22 +19,28 @@
   <section class="section">
     <div class="container footer-menu-wrap">
       {% for block in section.blocks %}
-        <div class="{% if forloop.length >= 5 %}one-fifth column{% elsif forloop.length == 4 %}one-fourth column{% elsif forloop.length == 3 %}one-third column{% elsif forloop.length == 2 %}one-half column{% endif %} medium-down--one-whole" {{ block.shopify_attributes }}>
+        <div
+          class="{% if forloop.length >= 5 %}one-fifth column{% elsif forloop.length == 4 %}one-fourth column{% elsif forloop.length == 3 %}one-third column{% elsif forloop.length == 2 %}one-half column{% endif %} medium-down--one-whole"
+          {{ block.shopify_attributes }}
+        >
           {% if block.type == 'logo' %}
             <div class="text-align--{{block.settings.text_align}}">
               {% if block.settings.image %}
-                <img alt="{{ block.settings.image.alt | escape }}"
-                     class="footer-logo lazyload {{ settings.image_loading_style }}"
-                     data-sizes="25vw"
-                     style="object-fit: cover; object-position: {{ block.settings.image.presentation.focal_point }}; max-width: {{- block.settings.image.width -}}px"
-                     data-src="{{ block.settings.image | img_url: '2048x' }}"
-                     data-srcset="{{ block.settings.image | img_url: '200x' }} 200w,
-                                  {{ block.settings.image | img_url: '300x' }} 300w,
-                                  {{ block.settings.image | img_url: '400x' }} 400w,
-                                  {{ block.settings.image | img_url: '500x' }} 500w,
-                                  {{ block.settings.image | img_url: '600x' }} 600w,
-                                  {{ block.settings.image | img_url: '1000x' }} 1000w"
-                />
+                <img
+                  alt="{{ block.settings.image.alt | escape }}"
+                  class="footer-logo lazyload {{ settings.image_loading_style }}"
+                  data-sizes="25vw"
+                  style="object-fit: cover; object-position: {{ block.settings.image.presentation.focal_point }}; max-width: {{- block.settings.image.width -}}px"
+                  data-src="{{ block.settings.image | img_url: '2048x' }}"
+                  data-srcset="
+                    {{ block.settings.image | img_url: '200x' }} 200w,
+                    {{ block.settings.image | img_url: '300x' }} 300w,
+                    {{ block.settings.image | img_url: '400x' }} 400w,
+                    {{ block.settings.image | img_url: '500x' }} 500w,
+                    {{ block.settings.image | img_url: '600x' }} 600w,
+                    {{ block.settings.image | img_url: '1000x' }} 1000w
+                  "
+                >
               {% else %}
                 <div class="logo">{{ shop.name }}</div>
               {% endif %}
@@ -54,42 +59,93 @@
                 <span class="message"></span>
 
                 {% if settings.mailchimp_link != blank %}
-                  <form action="{{ settings.mailchimp_link }}" method="post" name="mc-embedded-subscribe-form" id="contact_form" target="_blank">
+                  <form
+                    action="{{ settings.mailchimp_link }}"
+                    method="post"
+                    name="mc-embedded-subscribe-form"
+                    id="contact_form"
+                    target="_blank"
+                  >
                     {% if block.settings.show_firstname %}
-                      <input type="text" value="" class="firstName" name="FNAME" placeholder="{{ 'general.newsletter_form.subscriber_first_name' | t }}">
+                      <input
+                        type="text"
+                        value=""
+                        class="firstName"
+                        name="FNAME"
+                        placeholder="{{ 'general.newsletter_form.subscriber_first_name' | t }}"
+                      >
                     {% endif %}
 
                     {% if block.settings.show_lastname %}
-                      <input type="text" value="" name="LNAME" placeholder="{{ 'general.newsletter_form.subscriber_last_name' | t }}">
+                      <input
+                        type="text"
+                        value=""
+                        name="LNAME"
+                        placeholder="{{ 'general.newsletter_form.subscriber_last_name' | t }}"
+                      >
                     {% endif %}
 
-                    <input type="email" value="" name="EMAIL" class="contact_email" placeholder="{{ 'general.newsletter_form.placeholder' | t }}">
+                    <input
+                      type="email"
+                      value=""
+                      name="EMAIL"
+                      class="contact_email"
+                      placeholder="{{ 'general.newsletter_form.placeholder' | t }}"
+                    >
 
-                    <input type="submit" value="{{ 'general.newsletter_form.submit' | t }}" class="global-button global-button--primary newsletter-form__sign-up" name="subscribe" />
+                    <input
+                      type="submit"
+                      value="{{ 'general.newsletter_form.submit' | t }}"
+                      class="global-button global-button--primary newsletter-form__sign-up"
+                      name="subscribe"
+                    >
                   </form>
                 {% else %}
                   {% form 'customer' %}
                     {% if form.posted_successfully? %}
-                      <p><em>{{ 'general.newsletter_form.success_text' | t }}</em></p>
+                      <p>
+                        <em>{{ 'general.newsletter_form.success_text' | t }}</em>
+                      </p>
                     {% elsif form.errors %}
                       {% for field in form.errors %}
-                        <p><em>{{ field }} - {{ form.errors.messages[field] }}</em></p>
+                        <p>
+                          <em>{{ field }} - {{ form.errors.messages[field] }}</em>
+                        </p>
                       {% endfor %}
                     {% endif %}
 
-                    <input type="hidden" name="contact[tags]" value="prospect,newsletter"/>
+                    <input type="hidden" name="contact[tags]" value="prospect,newsletter">
 
                     {% if block.settings.show_firstname %}
-                      <input type="text" class="firstName" name="contact[first_name]" placeholder="{{ 'general.newsletter_form.subscriber_first_name' | t }}" />
+                      <input
+                        type="text"
+                        class="firstName"
+                        name="contact[first_name]"
+                        placeholder="{{ 'general.newsletter_form.subscriber_first_name' | t }}"
+                      >
                     {% endif %}
 
                     {% if block.settings.show_lastname %}
-                      <input type="text" name="contact[last_name]" placeholder="{{ 'general.newsletter_form.subscriber_last_name' | t }}" />
+                      <input
+                        type="text"
+                        name="contact[last_name]"
+                        placeholder="{{ 'general.newsletter_form.subscriber_last_name' | t }}"
+                      >
                     {% endif %}
 
-                    <input type="hidden" name="challenge" value="false" />
-                    <input type="email" class="contact_email" name="contact[email]" required placeholder="{{ 'general.newsletter_form.placeholder' | t }}" />
-                    <input type='submit' class="global-button global-button--primary newsletter-form__sign-up" value="{{ 'general.newsletter_form.submit' | t }}" />
+                    <input type="hidden" name="challenge" value="false">
+                    <input
+                      type="email"
+                      class="contact_email"
+                      name="contact[email]"
+                      required
+                      placeholder="{{ 'general.newsletter_form.placeholder' | t }}"
+                    >
+                    <input
+                      type="submit"
+                      class="global-button global-button--primary newsletter-form__sign-up"
+                      value="{{ 'general.newsletter_form.submit' | t }}"
+                    >
                   {% endform %}
                 {% endif %}
               </div>
@@ -101,7 +157,10 @@
           {% elsif block.type == 'link_list' %}
             <div class="footer_menu">
               {% if block.settings.menu != blank %}
-                <h6>{{ linklists[block.settings.menu].title }}<span class="right icon-down-arrow"></span></h6>
+                <h6>
+                  {{ linklists[block.settings.menuTitle] -}}
+                  <span class="right icon-down-arrow"></span>
+                </h6>
 
                 <div class="toggle_content">
                   <ul>
@@ -129,7 +188,10 @@
           {% elsif block.type == 'text' %}
             <div class="footer_content footer-text {% if block.settings.title == blank %}no-footer-title{% endif %}">
               {% if block.settings.title != blank %}
-                <h6>{{ block.settings.title }}<span class="right icon-down-arrow"></span></h6>
+                <h6>
+                  {{ block.settings.title -}}
+                  <span class="right icon-down-arrow"></span>
+                </h6>
               {% endif %}
 
               {% if block.settings.content %}
@@ -141,7 +203,10 @@
           {% elsif block.type == 'page' %}
             <div class="footer_content footer-text">
               {% if block.settings.page != blank %}
-                <h6>{{ pages[block.settings.page].title }}<span class="right icon-down-arrow"></span></h6>
+                <h6>
+                  {{ pages[block.settings.page].title -}}
+                  <span class="right icon-down-arrow"></span>
+                </h6>
 
                 <div class="toggle_content rte">
                   {{ pages[block.settings.page].content }}
@@ -177,8 +242,7 @@
       <div class="one-whole column footer_credits">
         {% if locale_selector or currency_selector or settings.show_multiple_currencies == true %}
           <div class="localization-wrap">
-            {%
-              render 'localization-switcher',
+            {% render 'localization-switcher',
               additional_classes: 'footer-menu__disclosure',
               id: 'footer__selector-form',
               currency_selector: currency_selector,
@@ -189,7 +253,8 @@
         {% endif %}
 
         <p class="credits">
-          &copy; {{ "now" | date: "%Y" }} {{ shop.name | link_to: routes.root_url }}.
+          &copy; {{ 'now' | date: '%Y' }}
+          {{ shop.name | link_to: routes.root_url }}.
 
           {{ section.settings.copyright_text }}
 
@@ -203,7 +268,7 @@
         {% if section.settings.display_payment_methods %}
           <div class="payment_methods">
             {% for type in shop.enabled_payment_types %}
-              {{ type | payment_type_svg_tag: class:'payment-icon' }}
+              {{ type | payment_type_svg_tag: class: 'payment-icon' }}
             {% endfor %}
           </div>
         {% endif %}
@@ -343,6 +408,11 @@
           "info": "This menu won't show drop-down items"
         },
         {
+          "type": "Text",
+          "id": "menuTitle",
+          "label": "Menu Title"
+        },
+        {
           "type": "checkbox",
           "id": "social_icons_footer",
           "label": "Show social media footer icons",
@@ -422,5 +492,4 @@
     ]
   }
 }
-
 {% endschema %}
