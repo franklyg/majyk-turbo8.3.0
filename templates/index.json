@@ -31,7 +31,7 @@
       ],
       "settings": {
         "wide_display": true,
-        "aspect_ratio": "16:9",
+        "aspect_ratio": "2.18:1",
         "autoplay": true,
         "autoloop": true,
         "mute_video": true,
