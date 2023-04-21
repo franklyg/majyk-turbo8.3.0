@@ -554,10 +554,23 @@
           "settings": {
             "label_title": "Ways to Earn Points"
           }
+        },
+        "73e29d46-f8f4-4ef9-9a40-988b32717feb": {
+          "type": "shopify:\/\/apps\/stamped-loyalty-referrals\/blocks\/page-how-it-works\/1dca3c9b-31b1-4bfb-a09a-c23c1a3c8fb6",
+          "settings": {
+            "label_title": "How it Works",
+            "label_step_title_one": "Join",
+            "label_step_description_one": "Create an account and start earning.",
+            "label_step_title_two": "Earn Points",
+            "label_step_description_two": "Earn points every time you shop.",
+            "label_step_title_three": "Redeem",
+            "label_step_description_three": "Redeem points for exclusive discounts."
+          }
         }
       },
       "block_order": [
-        "63cc7612-d345-4035-a21c-fb9188eca76f"
+        "63cc7612-d345-4035-a21c-fb9188eca76f",
+        "73e29d46-f8f4-4ef9-9a40-988b32717feb"
       ],
       "settings": {
       }
