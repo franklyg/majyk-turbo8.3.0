@@ -157,12 +157,14 @@
           {% elsif block.type == 'link_list' %}
             <div class="footer_menu">
               {% if block.settings.menu != blank %}
-                {% if block.settings.remove_heading == false %}
-                  <h6>
-                    {{ linklists[block.settings.menu.title] -}}
-                    <span class="right icon-down-arrow"></span>
-                  </h6>
-                {% endif %}
+                <h6
+                  {% if block.settings.remove_heading %}
+                    class="custom-remove-footer-heading"
+                  {% endif %}
+                >
+                  {{ linklists[block.settings.menu.title] -}}
+                  <span class="right icon-down-arrow"></span>
+                </h6>
 
                 <div class="toggle_content">
                   <ul
