@@ -158,7 +158,8 @@
             <div class="footer_menu">
               {% if block.settings.menu != blank %}
                 <h6>
-                  {{ linklists[block.settings.title] -}}
+                  {% comment %} {{ linklists[block.settings.menu.title] -}} {% endcomment %}
+                  Quick Links
                   <span class="right icon-down-arrow"></span>
                 </h6>
 
