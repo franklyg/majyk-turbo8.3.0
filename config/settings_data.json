@@ -233,14 +233,16 @@
             "type": "link_list",
             "settings": {
               "menu": "navigation-menu",
-              "social_icons_footer": false
+              "social_icons_footer": false,
+              "remove_heading": false
             }
           },
           "bffb3c7e-bdc6-45b4-8000-0cf7d1dcc06a": {
             "type": "link_list",
             "settings": {
               "menu": "footer",
-              "social_icons_footer": false
+              "social_icons_footer": false,
+              "remove_heading": true
             }
           },
           "footer-3": {
