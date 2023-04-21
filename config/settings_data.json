@@ -98,7 +98,7 @@
     "slideshow_subtitle_size": 18,
     "slideshow_subtitle_letter_spacing": 0,
     "slideshow_shadow": false,
-    "regular__font": "serif",
+    "regular__font": "sans-serif",
     "regular_font_style": "none",
     "regular_font_size": 14,
     "footer_font_size": 13,
@@ -116,7 +116,7 @@
     "notify_me_form": false,
     "display_vendor": false,
     "collection_swatches": true,
-    "show_star_ratings": true,
+    "show_star_ratings": false,
     "sale_banner_enabled": true,
     "thumbnail_hover_enabled": false,
     "mobile_products_per_row": "2",
@@ -233,7 +233,13 @@
             "type": "link_list",
             "settings": {
               "menu": "navigation-menu",
-              "menuTitle": "Quick Links",
+              "social_icons_footer": false
+            }
+          },
+          "bffb3c7e-bdc6-45b4-8000-0cf7d1dcc06a": {
+            "type": "link_list",
+            "settings": {
+              "menu": "footer",
               "social_icons_footer": false
             }
           },
@@ -255,6 +261,7 @@
         "block_order": [
           "footer-0",
           "footer-2",
+          "bffb3c7e-bdc6-45b4-8000-0cf7d1dcc06a",
           "footer-3",
           "8c8fc9ed-1d53-4d9f-8979-299ff6b8fc22"
         ],
