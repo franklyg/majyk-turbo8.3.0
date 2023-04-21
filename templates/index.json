@@ -549,14 +549,15 @@
     "1681820152434a57e6": {
       "type": "apps",
       "blocks": {
-        "d56e1b26-7de7-494f-9071-0a47c2529c3b": {
-          "type": "shopify:\/\/apps\/bon-loyalty\/blocks\/loyalty-page-block\/63496a04-c097-48d1-8c11-475aec24b12e",
+        "63cc7612-d345-4035-a21c-fb9188eca76f": {
+          "type": "shopify:\/\/apps\/stamped-loyalty-referrals\/blocks\/page-earnings\/1dca3c9b-31b1-4bfb-a09a-c23c1a3c8fb6",
           "settings": {
+            "label_title": "Ways to Earn Points"
           }
         }
       },
       "block_order": [
-        "d56e1b26-7de7-494f-9071-0a47c2529c3b"
+        "63cc7612-d345-4035-a21c-fb9188eca76f"
       ],
       "settings": {
       }
