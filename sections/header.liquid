@@ -124,7 +124,7 @@
           {% if shop.customer_accounts_enabled %}
             {% if customer %}
               <li>
-                <a style="pointer-events: all; !important" href="{{ routes.account_url }}" data-no-instant>
+                <a href="{{ routes.account_url }}" data-no-instant>
                   {{- customer.name -}}
                 </a>
               </li>
@@ -282,7 +282,10 @@
       <ul class="top-bar__menu menu">
         {% if section.settings.phone_number != blank %}
           <li>
-            <a href="tel:{{ section.settings.phone_number | replace: ' ', '' | replace: '+', '' | replace: '-', '' }}">
+            <a
+              style="pointer-events: none;"
+              href="tel:{{ section.settings.phone_number | replace: ' ', '' | replace: '+', '' | replace: '-', '' }}"
+            >
               {{- section.settings.phone_number -}}
             </a>
           </li>
