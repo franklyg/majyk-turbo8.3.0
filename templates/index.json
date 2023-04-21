@@ -33,7 +33,7 @@
         "autoloop": true,
         "mute_video": true,
         "show_controls": false,
-        "video_dark_overlay": false,
+        "video_dark_overlay": true,
         "iframe_video": "",
         "html5_video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/64c90ec8ac184ffd9aecb889afc451ec.mp4",
         "display_text_over_video": false,
