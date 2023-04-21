@@ -233,7 +233,7 @@
             "type": "link_list",
             "settings": {
               "menu": "navigation-menu",
-              "menuTitle": "Quick Find",
+              "menuTitle": "Quick Links",
               "social_icons_footer": false
             }
           },
