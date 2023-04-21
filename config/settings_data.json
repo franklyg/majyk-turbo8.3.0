@@ -116,7 +116,7 @@
     "notify_me_form": false,
     "display_vendor": false,
     "collection_swatches": true,
-    "show_star_ratings": true,
+    "show_star_ratings": false,
     "sale_banner_enabled": true,
     "thumbnail_hover_enabled": false,
     "mobile_products_per_row": "2",
