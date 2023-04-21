@@ -26,6 +26,9 @@
     },
     "00fdfc2d-07c2-4967-886f-6f7e925b8f55": {
       "type": "video",
+      "custom_css": [
+
+      ],
       "settings": {
         "wide_display": true,
         "aspect_ratio": "16:9",
@@ -35,7 +38,7 @@
         "show_controls": false,
         "video_dark_overlay": true,
         "iframe_video": "",
-        "html5_video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ad604518219548ccb1dd3a686773e6a5.mp4",
+        "html5_video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/3388fedccf854aa88fbabfc4327ba5a4.mp4",
         "display_text_over_video": false,
         "preheading": "",
         "heading": "",
