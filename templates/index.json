@@ -27,7 +27,7 @@
     "00fdfc2d-07c2-4967-886f-6f7e925b8f55": {
       "type": "video",
       "custom_css": [
-
+        ".plyr--video, .plyr__video-wrapper{background: none;}"
       ],
       "settings": {
         "wide_display": true,
