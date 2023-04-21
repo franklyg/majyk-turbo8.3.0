@@ -232,7 +232,7 @@
           "footer-2": {
             "type": "link_list",
             "settings": {
-              "menu": "navigation-menu",
+              "menu": "quick-links",
               "social_icons_footer": false,
               "remove_heading": false
             }
