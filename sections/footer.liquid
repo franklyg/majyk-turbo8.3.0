@@ -159,8 +159,7 @@
               {% if block.settings.menu != blank %}
                 {% if block.settings.remove_heading == false %}
                   <h6>
-                    {% comment %} {{ linklists[block.settings.menu.title] -}} {% endcomment %}
-                    Quick Links
+                    {{ linklists[block.settings.menu.title] -}}
                     <span class="right icon-down-arrow"></span>
                   </h6>
                 {% endif %}
