@@ -271,37 +271,35 @@
                       data-payment-terms-target
                       style="display: none;"
                     ></form>
-
-                    {% comment %} George Custom Size Chart Start {% endcomment %}
-
-                    {%- assign product_type_tag = false -%}
-                    {%- for tag in product.tags -%}
-                      {%- if tag == 'Boots' -%}
-                        {%- assign product_type_tag = 'Boot' -%}
-                      {%- endif -%}
-                      {%- if tag == 'Bell Boot' -%}
-                        {%- assign product_type_tag = 'Bell Boot' -%}
-                      {%- endif -%}
-                      {%- if tag == 'girth' -%}
-                        {%- assign product_type_tag = 'Girth' -%}
-                      {%- endif -%}
-                      {%- if tag == 'Saddle Pad' -%}
-                        {%- assign product_type_tag = 'Saddle Pad' -%}
-                      {%- endif -%}
-                      {%- if tag == 'Fly Sheet' -%}
-                        {%- assign product_type_tag = 'Fly Sheet' -%}
-                      {%- endif -%}
-                      {%- if tag == 'Fly Boots' -%}
-                        {%- assign product_type_tag = 'Fly Boots' -%}
-                      {%- endif -%}
-                      {%- if tag == 'Fly Mask' -%}
-                        {%- assign product_type_tag = 'Fly Mask' -%}
-                      {%- endif -%}
-                    {%- endfor -%}
-
-                    {% comment %} George Custom Size Chart Button end {% endcomment %}
                   </div>
-                  Test
+                  {% comment %} George Custom Size Chart Start {% endcomment %}
+                  {%- assign product_type_tag = false -%}
+                  {%- for tag in product.tags -%}
+                    {%- if tag == 'Boots' -%}
+                      {%- assign product_type_tag = 'Boot' -%}
+                    {%- endif -%}
+                    {%- if tag == 'Bell Boot' -%}
+                      {%- assign product_type_tag = 'Bell Boot' -%}
+                    {%- endif -%}
+                    {%- if tag == 'girth' -%}
+                      {%- assign product_type_tag = 'Girth' -%}
+                    {%- endif -%}
+                    {%- if tag == 'Saddle Pad' -%}
+                      {%- assign product_type_tag = 'Saddle Pad' -%}
+                    {%- endif -%}
+                    {%- if tag == 'Fly Sheet' -%}
+                      {%- assign product_type_tag = 'Fly Sheet' -%}
+                    {%- endif -%}
+                    {%- if tag == 'Fly Boots' -%}
+                      {%- assign product_type_tag = 'Fly Boots' -%}
+                    {%- endif -%}
+                    {%- if tag == 'Fly Mask' -%}
+                      {%- assign product_type_tag = 'Fly Mask' -%}
+                    {%- endif -%}
+                  {%- endfor -%}
+
+                  {% comment %} George Custom Size Chart Button end {% endcomment %}
+                  <button>See Size Chart</button>
                 {% endif %}
               {% endif %}
             {% when 'custom-liquid' %}
