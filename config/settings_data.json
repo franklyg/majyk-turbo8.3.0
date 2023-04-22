@@ -670,6 +670,14 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "6573195592375385177": {
+        "type": "shopify:\/\/apps\/reelup-shoppable-videos-reels\/blocks\/reelup\/5e0256f9-2330-4b36-9ee7-2c3900572f7a",
+        "disabled": false,
+        "settings": {
+          "debugging_popup_script": "",
+          "debugging_pops_script": ""
+        }
       }
     }
   }
