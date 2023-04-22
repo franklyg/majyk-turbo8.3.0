@@ -286,11 +286,11 @@
                     {%- endif -%}
                     {%- if tag == 'girth' -%}
                       {%- assign product_type_tag = 'Girth' -%}
-                      {%- assign size_chart_src = 'https://cdn.shopify.com/s/files/1/1412/4104/files/Size_chart_Latest_105e324f-a3ad-4ff5-b452-9ed7358b58aa.jpg?v=1596412501' -%}
+                      {%- assign size_chart_src = 'https://cdn.shopify.com/videos/c/o/v/5552bcc426f7479a88bb83b341cbf1a6.mp4' -%}
                     {%- endif -%}
                     {%- if tag == 'Saddle Pad' -%}
                       {%- assign product_type_tag = 'Saddle Pad' -%}
-                      {%- assign size_chart_src = 'https://cdn.shopify.com/s/files/1/1412/4104/files/sadle_pads_size_chart.jpg?v=1679157432' -%}
+                      {%- assign size_chart_src = 'https://cdn.shopify.com/s/files/1/1412/4104/files/sadle_pads_size_chart_New.png?v=1682201707' -%}
                     {%- endif -%}
                     {%- if tag == 'Fly Sheet' -%}
                       {%- assign product_type_tag = 'Fly Sheet' -%}
@@ -334,7 +334,11 @@
                         <h5 class="center">{{ product_type_tag }} Size Chart</h5>
                         <div class="feature-divider"></div>
                         <div class="rte">
-                          <img src="{{ size_chart_src }}" style="height: 85vh;">
+                          {% if product_type_tag == 'Girth' %}
+                            <video><source src="{{ size_chart_src}}" type="video/mp4"></video>
+                          {% elsif %}
+                            <img src="{{ size_chart_src }}" style="height: 85vh;">
+                          {% endif %}
                         </div>
                       </div>
                     </div>
