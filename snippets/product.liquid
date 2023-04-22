@@ -272,6 +272,7 @@
                       style="display: none;"
                     ></form>
                   </div>
+
                   {% comment %} George Custom Size Chart Start {% endcomment %}
                   {%- assign product_type_tag = false -%}
                   {%- for tag in product.tags -%}
@@ -298,8 +299,37 @@
                     {%- endif -%}
                   {%- endfor -%}
 
+                  <div
+                    class="
+                      product-popup
+                      product-popup--{{ block.settings.text_alignment }}
+                    "
+                  >
+                    <a
+                      class="product-popup__link"
+                      href="javascript:;"
+                      data-fancybox
+                      data-src="#product-popup__lightbox-customsizechart"
+                      data-type="inline"
+                      data-no-instant
+                    >
+                      <span class="product-popup__text"> test1 </span>
+                    </a>
+                  </div>
+
+                  <div
+                    class="product-popup__lightbox"
+                    id="product-popup__lightbox-customsizechart"
+                    style="display: none;"
+                  >
+                    <div class="product-popup__lightbox-wrapper">
+                      <h5 class="center">H5 test</h5>
+                      <div class="feature-divider"></div>
+                      <div class="rte">content test</div>
+                    </div>
+                  </div>
+
                   {% comment %} George Custom Size Chart Button end {% endcomment %}
-                  <button>See Size Chart</button>
                 {% endif %}
               {% endif %}
             {% when 'custom-liquid' %}
