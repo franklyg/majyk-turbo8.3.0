@@ -276,7 +276,7 @@
                   {% comment %} George Custom Size Chart Start {% endcomment %}
                   {%- assign product_type_tag = false -%}
                   {%- for tag in product.tags -%}
-                    {%- if tag == 'Jump Boot' || tag == 'Horse Boot' -%}
+                    {%- if tag == 'Jump Boot' or tag == 'Horse Boot' -%}
                       {%- assign product_type_tag = 'Boot' -%}
                       {%- assign size_chart_src = 'https://cdn.shopify.com/s/files/1/1412/4104/files/New-Majyk-Size-Chart_Final_4560eede-fce4-45b8-892b-42f15bf0468a.jpg?v=1679157455' -%}
                     {%- endif -%}
