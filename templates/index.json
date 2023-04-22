@@ -191,7 +191,7 @@
         "5887a43b-a682-4098-92aa-8343fe4d1619"
       ],
       "custom_css": [
-        ".title:not(h2) {font-size: 1.2em; font-family: dashiell-fine, serif !important; font-weight: 700 !important; text-transform: uppercase !important;}"
+        ".title:not(h2) {font-size: 1.5em; font-family: dashiell-fine, serif !important; font-weight: 700 !important; text-transform: uppercase !important;}"
       ],
       "settings": {
         "title": "Shop by discipline",
