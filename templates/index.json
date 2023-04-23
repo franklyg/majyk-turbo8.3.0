@@ -59,6 +59,29 @@
         "custom_css": ""
       }
     },
+    "17b4b003-ae4a-4003-8f3c-5afc69020dbc": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "wide_display": true,
+        "image": "shopify:\/\/shop_images\/Short_Banner_LRK3DE.webp",
+        "pretext": "",
+        "title": "",
+        "subtitle": "",
+        "button1": "",
+        "button1_link": "",
+        "button1_style": "global-button--banner",
+        "button2": "",
+        "button2_link": "",
+        "button2_style": "global-button--banner",
+        "text_position": "center",
+        "text_align": "center",
+        "caption_content_background": "original",
+        "mobile_text_below_image": true,
+        "mobile_text_color": "",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
     "d6697710-6482-4414-a27a-c9b14ce8e848": {
       "type": "shoppable-image",
       "disabled": true,
@@ -598,6 +621,7 @@
   "order": [
     "b4916044-e1fe-41b8-9e05-be3f515dad95",
     "00fdfc2d-07c2-4967-886f-6f7e925b8f55",
+    "17b4b003-ae4a-4003-8f3c-5afc69020dbc",
     "d6697710-6482-4414-a27a-c9b14ce8e848",
     "featured-text-1",
     "collection-list-1",

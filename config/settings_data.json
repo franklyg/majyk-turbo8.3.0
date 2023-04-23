@@ -671,18 +671,18 @@
         "settings": {
         }
       },
+      "5493738229337669960": {
+        "type": "shopify:\/\/apps\/bon-loyalty\/blocks\/app-embed\/63496a04-c097-48d1-8c11-475aec24b12e",
+        "disabled": true,
+        "settings": {
+        }
+      },
       "6573195592375385177": {
         "type": "shopify:\/\/apps\/reelup-shoppable-videos-reels\/blocks\/reelup\/5e0256f9-2330-4b36-9ee7-2c3900572f7a",
         "disabled": false,
         "settings": {
           "debugging_popup_script": "",
           "debugging_pops_script": ""
-        }
-      },
-      "5493738229337669960": {
-        "type": "shopify:\/\/apps\/bon-loyalty\/blocks\/app-embed\/63496a04-c097-48d1-8c11-475aec24b12e",
-        "disabled": true,
-        "settings": {
         }
       }
     }
