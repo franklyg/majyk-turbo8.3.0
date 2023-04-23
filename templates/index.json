@@ -432,7 +432,7 @@
         "subheading": "",
         "button1_label": "",
         "button1_link": "",
-        "button1_style": "global-button--banner",
+        "button1_style": "global-button--primary",
         "button2_label": "",
         "button2_link": "",
         "button2_style": "global-button--banner",
