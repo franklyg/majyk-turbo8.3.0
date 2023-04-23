@@ -686,5 +686,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".dovetale-button {display:none !important;}"
+    ]
   }
 }

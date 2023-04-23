@@ -18,6 +18,7 @@
         },
         "e60674fb-d67e-42ed-a975-aacbd286e785": {
           "type": "filter_by_collection",
+          "disabled": true,
           "settings": {
           }
         }
