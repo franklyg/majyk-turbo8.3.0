@@ -6,7 +6,7 @@
         "ea071bdc-1dc5-4f4c-9411-de47509b919c": {
           "type": "filter",
           "settings": {
-            "filter_name": "COLOR",
+            "filter_name": "SHOP BY COLOR",
             "filter_tags": "Black,White,Brown,Navy,Blue,Turquoise,Purple,Red,Pink,Green,Bordeaux,Silver,Sparkle",
             "enable_filter_swatches": true
           }
