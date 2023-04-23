@@ -1,1 +1,51 @@
-{"sections":{"main":{"type":"collection-template","blocks":{"ea071bdc-1dc5-4f4c-9411-de47509b919c":{"type":"filter","settings":{"filter_name":"COLOR","filter_tags":"Black,White,Brown,Navy,Blue,Turquoise,Purple,Red,Pink,Green,Bordeaux,Silver,Sparkle","enable_filter_swatches":true}},"2001e430-6426-45ac-99b2-6f79db3eb7ec":{"type":"filter_by_type","settings":{}}},"block_order":["ea071bdc-1dc5-4f4c-9411-de47509b919c","2001e430-6426-45ac-99b2-6f79db3eb7ec"],"custom_css":["\/*.styled-checkbox {border: 1px solid grey;}",".*\/#color__White {border: 1px solid grey;}"],"settings":{"featured_collection_image":false,"wide_display":false,"caption_content_background":"original","display_collection_title":true,"collection_breadcrumb":true,"collection_tags":true,"collection_sort":true,"products_per_row":3,"pagination_limit":48,"toggle":false}}},"order":["main"]}
+{
+  "sections": {
+    "main": {
+      "type": "collection-template",
+      "blocks": {
+        "ea071bdc-1dc5-4f4c-9411-de47509b919c": {
+          "type": "filter",
+          "settings": {
+            "filter_name": "COLOR",
+            "filter_tags": "Black,White,Brown,Navy,Blue,Turquoise,Purple,Red,Pink,Green,Bordeaux,Silver,Sparkle",
+            "enable_filter_swatches": true
+          }
+        },
+        "2001e430-6426-45ac-99b2-6f79db3eb7ec": {
+          "type": "filter_by_type",
+          "settings": {
+          }
+        },
+        "e60674fb-d67e-42ed-a975-aacbd286e785": {
+          "type": "filter_by_collection",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "ea071bdc-1dc5-4f4c-9411-de47509b919c",
+        "2001e430-6426-45ac-99b2-6f79db3eb7ec",
+        "e60674fb-d67e-42ed-a975-aacbd286e785"
+      ],
+      "custom_css": [
+        "\/*.styled-checkbox {border: 1px solid grey;}",
+        ".*\/#color__White {border: 1px solid grey;}"
+      ],
+      "settings": {
+        "featured_collection_image": false,
+        "wide_display": false,
+        "caption_content_background": "original",
+        "display_collection_title": true,
+        "collection_breadcrumb": true,
+        "collection_tags": true,
+        "collection_sort": true,
+        "products_per_row": 3,
+        "pagination_limit": 48,
+        "toggle": false
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
