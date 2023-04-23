@@ -689,7 +689,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "#dovetale-button {display: none !important; opacity: 0 !important;}"
+      "#dovetale-container {display: none !important; opacity: 0 !important;}"
     ]
   }
 }
