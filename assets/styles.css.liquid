@@ -19019,13 +19019,18 @@ transition: box-shadow 0.15s ease,transform 0.15s ease;
  grid-template-columns: 1fr 0.6fr; 
 }
 
+.fit-2-col-left{
+ display:grid;
+ grid-template-columns: 1fr 0.3fr; 
+}
+
 .custom-2-col-right{
  display:grid;
  grid-template-columns: 0.6fr 1fr; 
 }
 
 @media only screen and (max-width: 798px){
-.custom-2-col-even, .custom-2-col-left, .custom-2-col-right{
+.custom-2-col-even, .custom-2-col-left, .custom-2-col-right, .fit-2-col-left{
  grid-template-columns: 1fr; 
 }
 }
