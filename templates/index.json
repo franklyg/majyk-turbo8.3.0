@@ -61,6 +61,7 @@
     },
     "17b4b003-ae4a-4003-8f3c-5afc69020dbc": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "wide_display": true,
         "image": "shopify:\/\/shop_images\/Short_Banner_LRK3DE_c3c2e06b-0a2f-4ea7-a62e-597408b60f33.webp",
@@ -88,6 +89,7 @@
       "blocks": {
         "template--14752795951202__d6697710-6482-4414-a27a-c9b14ce8e848-166587478363990726-0": {
           "type": "shoppable-image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Hero_Slider_Oct.webp",
             "card_styling": "rounded",
