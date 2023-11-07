@@ -2,6 +2,15 @@
 <!DOCTYPE html>
 <html class="no-js no-touch" lang="{{ request.locale.iso_code }}">
   <head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-416727240"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-416727240');
+</script>
   <script>
     window.Store = window.Store || {};
     window.Store.id = {{ shop.id }};
@@ -197,7 +206,8 @@
 
     {% if collection.previous_product %}<link rel="prev" href="{{ collection.previous_product }}">{% endif %}
     {% if collection.next_product %}<link rel="next" href="{{ collection.next_product }}">{% endif %}
-  {% render 'bon-loyalty' %}</head>
+  {% render 'bon-loyalty' %}{% render 'wsg-custom' %}
+</head>
 
   {% if template contains "index" %}
     {% assign feature_image = true %}
@@ -316,7 +326,7 @@
 
     {% section 'footer' %}
 
-    {% if settings.quick_shop_enabled %}
+{% if settings.quick_shop_enabled %}
       {% render 'quick-shop' %}
     {% endif %}
 
@@ -329,7 +339,9 @@
     {% if settings.show_shipping_calculator and template contains "cart" %}
       {% render 'cart-shipping-scripts' %}
     {% endif %}
-  </body>
+  {% include 'elspw_include' %}
+{% include 'adroll' %}
+</body>
 </html>
 {% endcapture %}
 {% assign content = content | replace_first: '<!DOCTYPE', '!DOCTYPE' | split: ' <' %}

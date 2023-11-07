@@ -3017,53 +3017,21 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 /* #Fonts
-================================================== */@font-face {
-  font-family: Roboto;
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-  src: url("https://fonts.shopifycdn.com/roboto/roboto_n4.da808834c2315f31dd3910e2ae6b1a895d7f73f5.woff2?h1=bWFqeWtlcXVpcGUuY29t&hmac=1f28ff80807d96cdb5139a29d33a7d562f153b6b41be515bc967c393e5918aa4") format("woff2"),
-       url("https://fonts.shopifycdn.com/roboto/roboto_n4.a512c7b68cd7f12c72e1a5fd58e7f7315c552e93.woff?h1=bWFqeWtlcXVpcGUuY29t&hmac=c9629b15cc160429ba55306bd7797cd59166b7103f3db171eff86562b8bcaf0e") format("woff");
-}
+================================================== */
 
+  
 
-  @font-face {
-  font-family: Roboto;
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-  src: url("https://fonts.shopifycdn.com/roboto/roboto_n7.51ede27d5b58491d9cf07ad184108da52fef80b4.woff2?h1=bWFqeWtlcXVpcGUuY29t&hmac=3c5d41287602cf46a47f3ad02c49f8aa0ee5c6a1b3ca689d73007c3402814eb6") format("woff2"),
-       url("https://fonts.shopifycdn.com/roboto/roboto_n7.1babbb6a27f91b14216bafa40bf222e08f6999f4.woff?h1=bWFqeWtlcXVpcGUuY29t&hmac=234cf3df6b6629ea18e438367ab46fc9091f786432cfd48ff530ef979f819380") format("woff");
-}
+  
 
-
-  @font-face {
-  font-family: Roboto;
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-  src: url("https://fonts.shopifycdn.com/roboto/roboto_i4.f98951b4b9b6e1096fc799cd05debd098bd422ac.woff2?h1=bWFqeWtlcXVpcGUuY29t&hmac=39861f2543ea78d3d035e78990110f99356b392e6597cd246bc069f2d80ab262") format("woff2"),
-       url("https://fonts.shopifycdn.com/roboto/roboto_i4.688a26691d45bc4053b6ae24a196cabdeedbc25c.woff?h1=bWFqeWtlcXVpcGUuY29t&hmac=3ce756f36cf32925037f665fec502cc0dcdcceadfc2abf2a909bebfa27bf0bcb") format("woff");
-}
-
-
-  @font-face {
-  font-family: Roboto;
-  font-weight: 700;
-  font-style: italic;
-  font-display: swap;
-  src: url("https://fonts.shopifycdn.com/roboto/roboto_i7.9c922c35bb84952cfb17e8c1d42e440e75aa8ccf.woff2?h1=bWFqeWtlcXVpcGUuY29t&hmac=f51eb034d16ba35df73ab2a2ff049f94493798083e66a7f34d7566782f1b69cb") format("woff2"),
-       url("https://fonts.shopifycdn.com/roboto/roboto_i7.c50b5683f5731edb8040ff2110a54947108434de.woff?h1=bWFqeWtlcXVpcGUuY29t&hmac=0cd58190549bbaf8d496c8dd97f3444b9e9cdee011bc0db96a458d041feb0eca") format("woff");
-}
-
+  
 
   @font-face {
   font-family: "Abril Fatface";
   font-weight: 400;
   font-style: normal;
   font-display: swap;
-  src: url("https://fonts.shopifycdn.com/abril_fatface/abrilfatface_n4.ba1d95cfd327492b9b2e70d2bf6de3283042fdf5.woff2?h1=bWFqeWtlcXVpcGUuY29t&hmac=17ef2afa3741e5591b1d126deac80314ed6a01393d8898b9c0659edea8e06602") format("woff2"),
-       url("https://fonts.shopifycdn.com/abril_fatface/abrilfatface_n4.15dba6ecd1dbe45e34997dc101cb33f1f43f72dd.woff?h1=bWFqeWtlcXVpcGUuY29t&hmac=8b20f7b81c105e35cf7e8b9314cb3a9595f13231d5b6d68162f1f141f69b625f") format("woff");
+  src: url("//majykequipe.com/cdn/fonts/abril_fatface/abrilfatface_n4.ba1d95cfd327492b9b2e70d2bf6de3283042fdf5.woff2?h1=bWFqeWtlcXVpcGUuY29t&h2=bWFqeWstZXF1aXBlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=3338dfd855c26c49f6af25b34b6f0657815756f1808704456e88258921385650") format("woff2"),
+       url("//majykequipe.com/cdn/fonts/abril_fatface/abrilfatface_n4.15dba6ecd1dbe45e34997dc101cb33f1f43f72dd.woff?h1=bWFqeWtlcXVpcGUuY29t&h2=bWFqeWstZXF1aXBlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=36cbc4b6979045aded165724955aef0883020a2b7f38514de4e2b89500985615") format("woff");
 }
 
 
@@ -3078,8 +3046,8 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   font-weight: 600;
   font-style: normal;
   font-display: swap;
-  src: url("https://fonts.shopifycdn.com/source_sans_pro/sourcesanspro_n6.91ba95a725d9bdfe4971390fba64eb8dfe38af4a.woff2?h1=bWFqeWtlcXVpcGUuY29t&hmac=e10fe4fa87e22331cd6c3474fc9da7b8c31b110e42574e2daf30d5536de7f833") format("woff2"),
-       url("https://fonts.shopifycdn.com/source_sans_pro/sourcesanspro_n6.ddeecb7446fb3520bd9f1efcb28875293a40d5c0.woff?h1=bWFqeWtlcXVpcGUuY29t&hmac=7525be6e1ee0035fb69b49fbf575ca2cae15a3a6a94d71bc3327cfd1b0c80fec") format("woff");
+  src: url("//majykequipe.com/cdn/fonts/source_sans_pro/sourcesanspro_n6.91ba95a725d9bdfe4971390fba64eb8dfe38af4a.woff2?h1=bWFqeWtlcXVpcGUuY29t&h2=bWFqeWstZXF1aXBlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=997ff3d33c3f6ce68a994258c253c400cfec2da274e687aceea9585a35529dbd") format("woff2"),
+       url("//majykequipe.com/cdn/fonts/source_sans_pro/sourcesanspro_n6.ddeecb7446fb3520bd9f1efcb28875293a40d5c0.woff?h1=bWFqeWtlcXVpcGUuY29t&h2=bWFqeWstZXF1aXBlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=b0de5c6127e79ad06ba2f545d779129e55d7dac1461c8b437d2955be1b88d179") format("woff");
 }
 
 
@@ -3088,8 +3056,8 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   font-weight: 900;
   font-style: normal;
   font-display: swap;
-  src: url("https://fonts.shopifycdn.com/source_sans_pro/sourcesanspro_n9.6487c308a4afe2c0aa488c6f8b434f111d53482a.woff2?h1=bWFqeWtlcXVpcGUuY29t&hmac=b79b30e0888c17f6c6d55ede3b3c8b6d72dbcbf82f108b4040d786f5ba242208") format("woff2"),
-       url("https://fonts.shopifycdn.com/source_sans_pro/sourcesanspro_n9.0d8c0db06389d06ed1e14082e9f80c9a430fbb4c.woff?h1=bWFqeWtlcXVpcGUuY29t&hmac=ac2b7be9a955a71a2435cc84ad9db7cb21d82be5422a83d81844e3de58bf9d36") format("woff");
+  src: url("//majykequipe.com/cdn/fonts/source_sans_pro/sourcesanspro_n9.6487c308a4afe2c0aa488c6f8b434f111d53482a.woff2?h1=bWFqeWtlcXVpcGUuY29t&h2=bWFqeWstZXF1aXBlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=93fd70fa493470ea5c8aa7e82ee9cde73480a4131d905d79561310811d636a23") format("woff2"),
+       url("//majykequipe.com/cdn/fonts/source_sans_pro/sourcesanspro_n9.0d8c0db06389d06ed1e14082e9f80c9a430fbb4c.woff?h1=bWFqeWtlcXVpcGUuY29t&h2=bWFqeWstZXF1aXBlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=a431219f5a50ed378b311cfd8effb5ffe76923de90525938bc5a3d574aaae28e") format("woff");
 }
 
 
@@ -3098,8 +3066,8 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   font-weight: 600;
   font-style: italic;
   font-display: swap;
-  src: url("https://fonts.shopifycdn.com/source_sans_pro/sourcesanspro_i6.f55627e878b1bd6dd9db32fdd2786a583d0b9d2d.woff2?h1=bWFqeWtlcXVpcGUuY29t&hmac=8e3754c871397a1fc8649f5524aa9c779687234901f39a970c696bb1befe8d23") format("woff2"),
-       url("https://fonts.shopifycdn.com/source_sans_pro/sourcesanspro_i6.37344362d339a6903b746e93575cff5f235df351.woff?h1=bWFqeWtlcXVpcGUuY29t&hmac=e41f6e0f1fabc2695eb2a5120ac4230093581bde905c4f81d1b11275b9a261c9") format("woff");
+  src: url("//majykequipe.com/cdn/fonts/source_sans_pro/sourcesanspro_i6.f55627e878b1bd6dd9db32fdd2786a583d0b9d2d.woff2?h1=bWFqeWtlcXVpcGUuY29t&h2=bWFqeWstZXF1aXBlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=510b3109959f87bc48b654cbba7e4e4949c1d0eda5615506297db39e76586b58") format("woff2"),
+       url("//majykequipe.com/cdn/fonts/source_sans_pro/sourcesanspro_i6.37344362d339a6903b746e93575cff5f235df351.woff?h1=bWFqeWtlcXVpcGUuY29t&h2=bWFqeWstZXF1aXBlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=4a0e8f259a7a0cec438f11297f5c15c5593248f6430a032e0ce3e80c50aa2255") format("woff");
 }
 
 
@@ -3108,28 +3076,8 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   font-weight: 900;
   font-style: italic;
   font-display: swap;
-  src: url("https://fonts.shopifycdn.com/source_sans_pro/sourcesanspro_i9.f2a964bdfe24f5d4d5c8166c5a5c3784419a6710.woff2?h1=bWFqeWtlcXVpcGUuY29t&hmac=e5ea623a4f8602731a9a988e4ee6295623c73c80b5e7d9f871f063d716095fc3") format("woff2"),
-       url("https://fonts.shopifycdn.com/source_sans_pro/sourcesanspro_i9.de200645fd9f6dbbbe337d6af2c2a231812a2ba5.woff?h1=bWFqeWtlcXVpcGUuY29t&hmac=330cb3e5f4694aba114b798515e169fc80f6fcab2d70c1b118e77391d55bb88c") format("woff");
-}
-
-
-  @font-face {
-  font-family: Inter;
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-  src: url("https://fonts.shopifycdn.com/inter/inter_n4.481bd4d19704ca98fb1d3abd50c668b6962860a2.woff2?h1=bWFqeWtlcXVpcGUuY29t&hmac=ff509e7f97478affc3f3adb446cb92f458b45628164fa5ee0e8621ba5a880620") format("woff2"),
-       url("https://fonts.shopifycdn.com/inter/inter_n4.5a356a4c1877691cd26008ee4a5c7ada675c80ce.woff?h1=bWFqeWtlcXVpcGUuY29t&hmac=00332e361fd44bb7cd1e2c1b883009a79aefc879cd488dd27bb9cb3760047836") format("woff");
-}
-
-
-  @font-face {
-  font-family: Inter;
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-  src: url("https://fonts.shopifycdn.com/inter/inter_n7.50ef4139896edec0637fde057914fbf7e3a8d56e.woff2?h1=bWFqeWtlcXVpcGUuY29t&hmac=5a0907a2307f8bf403a6cd47ece4b65bfea7d1d82c804431d0d7a0bdb9f69390") format("woff2"),
-       url("https://fonts.shopifycdn.com/inter/inter_n7.194c3d3f64efd8e4c82bbbe83dc84f5893fd9087.woff?h1=bWFqeWtlcXVpcGUuY29t&hmac=18014d7aa5c03e3c2c545fb3a472b243ee7ceeb0dc850a2311e2ac469f4d342a") format("woff");
+  src: url("//majykequipe.com/cdn/fonts/source_sans_pro/sourcesanspro_i9.f2a964bdfe24f5d4d5c8166c5a5c3784419a6710.woff2?h1=bWFqeWtlcXVpcGUuY29t&h2=bWFqeWstZXF1aXBlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=18c99fa162917c72af63bc21bef1468ae04172b1dfb0656e3ec8a95003138b13") format("woff2"),
+       url("//majykequipe.com/cdn/fonts/source_sans_pro/sourcesanspro_i9.de200645fd9f6dbbbe337d6af2c2a231812a2ba5.woff?h1=bWFqeWtlcXVpcGUuY29t&h2=bWFqeWstZXF1aXBlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=cf880c9c7c15109826bb784f006a80a63677e9d30ebe9b69e4cc9e59dceb6109") format("woff");
 }
 
 
@@ -3137,15 +3085,11 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 
   
 
-  @font-face {
-  font-family: Inter;
-  font-weight: 100;
-  font-style: normal;
-  font-display: swap;
-  src: url("https://fonts.shopifycdn.com/inter/inter_n1.64ffbe3db8bf296b4c11e905d108d865cad819e1.woff2?h1=bWFqeWtlcXVpcGUuY29t&hmac=ecd321e1fc33ae7dae033d3c3435bc67d58e6b072ac2dac3ff8640559503c8ae") format("woff2"),
-       url("https://fonts.shopifycdn.com/inter/inter_n1.531f8e357ff64abda22215dc64ab33508ce4a061.woff?h1=bWFqeWtlcXVpcGUuY29t&hmac=5d516ac4010d9c8152fd8adc7dd284874d558acf48da802b5526708a2cd288ef") format("woff");
-}
+  
 
+  
+
+  
 
   
 
@@ -3154,8 +3098,8 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   font-weight: 300;
   font-style: normal;
   font-display: swap;
-  src: url("https://fonts.shopifycdn.com/oswald/oswald_n3.bff4a8cab6f8be4b0b6d9de4e53c84f45f143640.woff2?h1=bWFqeWtlcXVpcGUuY29t&hmac=b10ba38f06b8474e0fb790206f5fef69ca44814c6fb119c417362461b7f6e737") format("woff2"),
-       url("https://fonts.shopifycdn.com/oswald/oswald_n3.9274b221a436d59cfed6e5cac51271ed4d148199.woff?h1=bWFqeWtlcXVpcGUuY29t&hmac=3d4b4b0e8f7d775443ae431cde1a81dd1a79cd22eba1f46e8e712803ed108b5e") format("woff");
+  src: url("//majykequipe.com/cdn/fonts/oswald/oswald_n3.bff4a8cab6f8be4b0b6d9de4e53c84f45f143640.woff2?h1=bWFqeWtlcXVpcGUuY29t&h2=bWFqeWstZXF1aXBlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=bd61e348ecbc97b24d576b57a76abf974dea3a8ad9658eade8cbb41959d9e3d4") format("woff2"),
+       url("//majykequipe.com/cdn/fonts/oswald/oswald_n3.9274b221a436d59cfed6e5cac51271ed4d148199.woff?h1=bWFqeWtlcXVpcGUuY29t&h2=bWFqeWstZXF1aXBlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=1b4397ff9ed4167145904c88f94c6d72331ca58fc3535c1077fefa10bf75bf3e") format("woff");
 }
 
 
@@ -3164,8 +3108,8 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   font-weight: 400;
   font-style: normal;
   font-display: swap;
-  src: url("https://fonts.shopifycdn.com/oswald/oswald_n4.a5ee385bde39969d807f7f1297bf51d73fbf3c1e.woff2?h1=bWFqeWtlcXVpcGUuY29t&hmac=49614b3ef1097f558aba1733201ce43faba258a723ed27f37042003093b6dba0") format("woff2"),
-       url("https://fonts.shopifycdn.com/oswald/oswald_n4.8f3e284746fbc2d29e34993609c51fdc432b0b24.woff?h1=bWFqeWtlcXVpcGUuY29t&hmac=28e9946f44cb2889f3ea0b3f3a90063bd3d144fdfc2ce24e55d6c972e544fb4e") format("woff");
+  src: url("//majykequipe.com/cdn/fonts/oswald/oswald_n4.a5ee385bde39969d807f7f1297bf51d73fbf3c1e.woff2?h1=bWFqeWtlcXVpcGUuY29t&h2=bWFqeWstZXF1aXBlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=afcb808e42401d6a38adde102b1d1db7fc9d931b8ec128b5d1d4538673db057c") format("woff2"),
+       url("//majykequipe.com/cdn/fonts/oswald/oswald_n4.8f3e284746fbc2d29e34993609c51fdc432b0b24.woff?h1=bWFqeWtlcXVpcGUuY29t&h2=bWFqeWstZXF1aXBlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=80a3d2420cd574c45b699f53bfe8e8f7e22d5f986ba7ec930bc3e38299c1fa2c") format("woff");
 }
 
 
@@ -3178,8 +3122,8 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   font-weight: 300;
   font-style: normal;
   font-display: swap;
-  src: url("https://fonts.shopifycdn.com/roboto/roboto_n3.fcf1a8ca0d134f200393562dbdc9f5836276782d.woff2?h1=bWFqeWtlcXVpcGUuY29t&hmac=aa78168fa1ab8013cefaa719a6d11a95b56703d527ae5f8066e98c92267a31c6") format("woff2"),
-       url("https://fonts.shopifycdn.com/roboto/roboto_n3.fa321b1ddee0338f7cf3bfb01c364bbc1b6a419a.woff?h1=bWFqeWtlcXVpcGUuY29t&hmac=6b33e939c4bc32044c33badd87db499bfdbada69f19ad403724ad4a15255415b") format("woff");
+  src: url("//majykequipe.com/cdn/fonts/roboto/roboto_n3.fcf1a8ca0d134f200393562dbdc9f5836276782d.woff2?h1=bWFqeWtlcXVpcGUuY29t&h2=bWFqeWstZXF1aXBlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=487247da6dbe606c41326a1fe8e74eab4d565b5adc444b3de633a93290271d3d") format("woff2"),
+       url("//majykequipe.com/cdn/fonts/roboto/roboto_n3.fa321b1ddee0338f7cf3bfb01c364bbc1b6a419a.woff?h1=bWFqeWtlcXVpcGUuY29t&h2=bWFqeWstZXF1aXBlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=cfdc357ff7bb3b5181252a2e841335f5fd80421acc2bce6531b19b38ab167829") format("woff");
 }
 
 
@@ -3188,8 +3132,8 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   font-weight: 400;
   font-style: normal;
   font-display: swap;
-  src: url("https://fonts.shopifycdn.com/roboto/roboto_n4.da808834c2315f31dd3910e2ae6b1a895d7f73f5.woff2?h1=bWFqeWtlcXVpcGUuY29t&hmac=1f28ff80807d96cdb5139a29d33a7d562f153b6b41be515bc967c393e5918aa4") format("woff2"),
-       url("https://fonts.shopifycdn.com/roboto/roboto_n4.a512c7b68cd7f12c72e1a5fd58e7f7315c552e93.woff?h1=bWFqeWtlcXVpcGUuY29t&hmac=c9629b15cc160429ba55306bd7797cd59166b7103f3db171eff86562b8bcaf0e") format("woff");
+  src: url("//majykequipe.com/cdn/fonts/roboto/roboto_n4.da808834c2315f31dd3910e2ae6b1a895d7f73f5.woff2?h1=bWFqeWtlcXVpcGUuY29t&h2=bWFqeWstZXF1aXBlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=2659e1968563a6830658a705d5f5d5929ce9be651237042c65a727144f7bb8e6") format("woff2"),
+       url("//majykequipe.com/cdn/fonts/roboto/roboto_n4.a512c7b68cd7f12c72e1a5fd58e7f7315c552e93.woff?h1=bWFqeWtlcXVpcGUuY29t&h2=bWFqeWstZXF1aXBlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=2d3cfd9b5846bc0f706fee38f3f7c5b04d066dc7b773c23506f8917a5d6819a0") format("woff");
 }
 
 
@@ -3198,8 +3142,8 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   font-weight: 300;
   font-style: italic;
   font-display: swap;
-  src: url("https://fonts.shopifycdn.com/roboto/roboto_i3.822f1ceb4cac9d8a65193433be86f1fa41cc2dec.woff2?h1=bWFqeWtlcXVpcGUuY29t&hmac=9222fe6a038ad50604adfad085f499706f3bda076ba306737488a79347c24713") format("woff2"),
-       url("https://fonts.shopifycdn.com/roboto/roboto_i3.f851bd42126845bf1959bbdd8e03e076fedf4a94.woff?h1=bWFqeWtlcXVpcGUuY29t&hmac=2f9e55cce62a2a842eba6517ab08f406d9e5195e306c594bb5bd1b2bd11a91b3") format("woff");
+  src: url("//majykequipe.com/cdn/fonts/roboto/roboto_i3.822f1ceb4cac9d8a65193433be86f1fa41cc2dec.woff2?h1=bWFqeWtlcXVpcGUuY29t&h2=bWFqeWstZXF1aXBlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=0fc7a6dc062dbb8111e4bab559c37084178f41e588ee877983417b56c627e523") format("woff2"),
+       url("//majykequipe.com/cdn/fonts/roboto/roboto_i3.f851bd42126845bf1959bbdd8e03e076fedf4a94.woff?h1=bWFqeWtlcXVpcGUuY29t&h2=bWFqeWstZXF1aXBlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=8701935c27742f74679776cba1fd251156aad865424c786e86ae0f1a496efbe0") format("woff");
 }
 
 
@@ -3208,18 +3152,18 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   font-weight: 400;
   font-style: italic;
   font-display: swap;
-  src: url("https://fonts.shopifycdn.com/roboto/roboto_i4.f98951b4b9b6e1096fc799cd05debd098bd422ac.woff2?h1=bWFqeWtlcXVpcGUuY29t&hmac=39861f2543ea78d3d035e78990110f99356b392e6597cd246bc069f2d80ab262") format("woff2"),
-       url("https://fonts.shopifycdn.com/roboto/roboto_i4.688a26691d45bc4053b6ae24a196cabdeedbc25c.woff?h1=bWFqeWtlcXVpcGUuY29t&hmac=3ce756f36cf32925037f665fec502cc0dcdcceadfc2abf2a909bebfa27bf0bcb") format("woff");
+  src: url("//majykequipe.com/cdn/fonts/roboto/roboto_i4.f98951b4b9b6e1096fc799cd05debd098bd422ac.woff2?h1=bWFqeWtlcXVpcGUuY29t&h2=bWFqeWstZXF1aXBlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=ffc7423404c6aabafc447192316963d129768c62136a6aa617bc2ff240e5c0c0") format("woff2"),
+       url("//majykequipe.com/cdn/fonts/roboto/roboto_i4.688a26691d45bc4053b6ae24a196cabdeedbc25c.woff?h1=bWFqeWtlcXVpcGUuY29t&h2=bWFqeWstZXF1aXBlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=af893eeabacd80f63760e6f46b9ef9042c45a20202d564bd57f48d2160891836") format("woff");
 }
 
 
 /* #Basic Styles
 ================================================== */
 body {
-  font-family: Roboto, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-weight: 400;
   font-style: normal;
-  font-size: 15px;
+  font-size: 14px;
   text-transform: none;
   color: #333333;
   line-height: 1.6em;
@@ -3730,7 +3674,7 @@ div.breadcrumb-collection.breadcrumb-collection--product {
 .article-pagination {
   margin-top: 0px;
   text-transform: uppercase;
-  font-size: 11px;
+  font-size: 10px;
   margin-bottom: 0;
 }
 @media only screen and (max-width: 798px) {
@@ -3750,7 +3694,7 @@ div.breadcrumb-collection.breadcrumb-collection--product {
 }
 
 .breadcrumb {
-  font-size: 14px;
+  font-size: 13px;
 }
 @media only screen and (max-width: 798px) {
   .breadcrumb {
@@ -4042,7 +3986,7 @@ body.is-active #header {
 }
 .mobile-menu__disclosure button.disclosure__button {
   justify-content: flex-start;
-  font-size: 12px;
+  font-size: 15px;
   color: #ffffff;
   padding-left: 0;
   min-height: 0;
@@ -4206,7 +4150,7 @@ p.cart-message a {
   padding: 0 20px;
 }
 .sticky_nav ul.menu {
-  font-size: 15px;
+  font-size: 14px;
   padding-bottom: 0 !important; /* Override non-sticky menu padding */
 }
 .sticky_nav .header__logo {
@@ -4366,10 +4310,10 @@ p.cart-message a {
 .cart-container .mini_cart {
   display: flex;
   justify-content: center;
-  font-family: Inter, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-weight: 400;
   font-style: normal;
-  font-size: 12px;
+  font-size: 15px;
   color: #363636;
   letter-spacing: 1px;
   width: 70px;
@@ -4411,10 +4355,10 @@ p.cart-message a {
 .menu a:visited,
 .menu a span,
 select.currencies {
-  font-family: Inter, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-weight: 400;
   font-style: normal;
-  font-size: 15px;
+  font-size: 14px;
   text-transform: none;
   color: #ffffff;
   padding-top: 12px;
@@ -4429,7 +4373,7 @@ select.currencies {
 .menu a:visited,
 .menu a span,
 select.currencies {
-    font-size: 12px;
+    font-size: 15px;
   }
 }
 
@@ -4466,7 +4410,7 @@ select.currencies {
   padding-top: 0;
   padding-bottom: 0;
   cursor: pointer;
-  background-image: url(//cdn.shopify.com/s/files/1/1412/4104/t/36/assets/select.png?v=116263797215257390791681828257);
+  background-image: url(//majykequipe.com/cdn/shop/t/38/assets/select.png?v=116263797215257390791682290632);
 }
 @media only screen and (max-width: 798px) {
   select.currencies {
@@ -4493,10 +4437,10 @@ select.currencies {
 .top-bar .social_icons a,
 .top-bar .mobile-menu-title {
   padding: 0;
-  font-family: Inter, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-weight: 400;
   font-style: normal;
-  font-size: 12px;
+  font-size: 15px;
   color: #363636;
   letter-spacing: 1px;
   text-rendering: optimizeLegibility;
@@ -4719,7 +4663,7 @@ a.tos_icon:hover,
   position: absolute;
   z-index: 2000;
   background-color: #ffffff;
-  font-family: Roboto, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-weight: 400;
   font-style: normal;
   text-transform: none;
@@ -4961,7 +4905,7 @@ div.cart_content form {
 .mini_cart,
 .top-bar [class^=icon-]:before,
 .top-bar [class*=" icon-"]:before {
-  font-size: 15px;
+  font-size: 18px;
   margin-right: 0;
 }
 
@@ -5078,8 +5022,8 @@ input[type=button].guest_button {
 
 .dropdown_content p,
 .mobile-mega-menu p {
-  font-family: Inter, sans-serif;
-  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 14px;
   font-style: normal;
   color: #ffffff;
   padding-top: 12px;
@@ -5592,10 +5536,10 @@ ul.toggle_list li ul.active {
   padding-right: 30px;
   background-position: 100% 50%;
   background-color: #ffffff;
-  font-family: Inter, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-weight: 400;
   font-style: normal;
-  font-size: 15px;
+  font-size: 14px;
   text-transform: none;
   width: auto;
   margin-bottom: 0;
@@ -5764,10 +5708,10 @@ product-cta,
   padding: 13px 20px;
   text-align: center;
   line-height: 1.2;
-  font-family: Inter, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-weight: normal;
   font-style: normal;
-  font-size: 14px;
+  font-size: 12px;
   text-transform: none;
   letter-spacing: 0px;
   word-break: break-word;
@@ -6331,7 +6275,7 @@ button.shopify-payment-button__more-options {
   top: 100%;
   left: 50%;
   font-weight: normal;
-  font-family: Roboto, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-style: normal;
   transform: translateX(-50%);
 }
@@ -6790,7 +6734,7 @@ button {
   height: auto;
   line-height: inherit;
   font-weight: bold;
-  font-family: Roboto, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-style: normal;
   box-shadow: none;
   border-radius: 0px;
@@ -7040,7 +6984,7 @@ select::-ms-expand {
 }
 
 select {
-  background: #fff url(//cdn.shopify.com/s/files/1/1412/4104/t/36/assets/select.png?v=116263797215257390791681828257) no-repeat 96% 50%;
+  background: #fff url(//majykequipe.com/cdn/shop/t/38/assets/select.png?v=116263797215257390791682290632) no-repeat 96% 50%;
   background-size: 18px 12px;
   border: 1px solid #d9dbdc;
   -webkit-appearance: none;
@@ -7113,7 +7057,7 @@ div.container.contact-form-container {
 }
 .contact-form ul li label,
 .custom-contact-form ul li label {
-  font-family: Roboto, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   text-transform: none;
   font-weight: 400;
 }
@@ -7997,10 +7941,10 @@ a.continue:hover {
   padding: 13px 20px;
   text-align: center;
   line-height: 1.2;
-  font-family: Inter, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-weight: normal;
   font-style: normal;
-  font-size: 14px;
+  font-size: 12px;
   text-transform: none;
   letter-spacing: 0px;
   word-break: break-word;
@@ -9034,10 +8978,10 @@ div.is-absolute {
   align-items: center;
   padding: 10px 0;
   color: #ffffff !important; /* Override nav menu coloring */
-  font-family: Inter, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-weight: 400;
   font-style: normal;
-  font-size: 15px;
+  font-size: 14px;
   text-transform: none;
 }
 .search__results li a:hover, .search__results li a:focus,
@@ -9048,7 +8992,7 @@ div.is-absolute {
 .search__results .search-title {
   text-transform: none;
   text-align: left;
-  font-size: 15px;
+  font-size: 14px;
 }
 .search__results .search-title span {
   color: #213e95;
@@ -9111,7 +9055,7 @@ div.is-absolute {
   width: 100%;
 }
 .mobile-search input#q {
-  font-family: Inter, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
@@ -9370,10 +9314,10 @@ header.secondary_logo--true:not(.feature_image) img.primary_logo {
 .top-bar__login-link {
   display: flex;
   gap: 5px;
-  font-family: Inter, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-weight: 400;
   font-style: normal;
-  font-size: 12px;
+  font-size: 15px;
   color: #363636;
   letter-spacing: 1px;
   text-rendering: optimizeLegibility;
@@ -9430,8 +9374,8 @@ header.secondary_logo--true:not(.feature_image) img.primary_logo {
 
 .disclosure__toggle {
   color: #363636;
-  font-size: 12px;
-  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-weight: 400;
   font-style: normal;
   text-transform: none;
@@ -9496,9 +9440,9 @@ button.disclosure__button {
   background-color: inherit;
   padding: 13px 20px;
   color: #363636;
-  font-size: 12px;
+  font-size: 15px;
   letter-spacing: 1px;
-  font-family: Inter, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-weight: 400;
   text-transform: none;
   letter-spacing: 0px;
@@ -9569,7 +9513,7 @@ a.tag,
   height: 0;
   width: 0;
   transition: all 0.3s linear;
-  background: url(//cdn.shopify.com/s/files/1/1412/4104/t/36/assets/loader.gif) center center no-repeat;
+  background: url(//majykequipe.com/cdn/shop/t/38/assets/loader.gif) center center no-repeat;
   background-size: 32px 32px;
   margin: 0 auto;
 }
@@ -9819,10 +9763,10 @@ input.secondary_button {
   border-top: solid 1px #cccccc;
   border-bottom: solid 1px #cccccc;
   margin: 10px 0;
-  font-family: Inter, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-weight: 400;
   font-style: normal;
-  font-size: 15px;
+  font-size: 14px;
   text-transform: none;
   letter-spacing: 0px;
   color: #213e95;
@@ -9910,10 +9854,10 @@ input.secondary_button:visited {
   display: block;
   color: #213e95;
   text-align: center;
-  font-family: Inter, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-weight: normal;
   font-style: normal;
-  font-size: 14px;
+  font-size: 12px;
   text-transform: none;
   letter-spacing: 0px;
   margin-top: 20px;
@@ -9951,7 +9895,7 @@ button.update {
 }
 
 .savings {
-  font-size: 15px;
+  font-size: 14px;
   display: block;
 }
 
@@ -10012,7 +9956,7 @@ button.update {
 shopify-payment-terms {
   display: block;
   margin-top: 8px;
-  font-size: 15px;
+  font-size: 14px;
 }
 .product--description-top shopify-payment-terms {
   margin-bottom: 4px;
@@ -11075,8 +11019,8 @@ img.footer-logo {
   padding: 0 10px;
   background-color: white;
   color: #333333;
-  font-size: 15px;
-  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-weight: 400;
   font-style: normal;
   text-transform: uppercase;
@@ -11098,8 +11042,8 @@ img.footer-logo {
 }
 .footer-menu__disclosure button.disclosure__button {
   color: #333333;
-  font-size: 15px;
-  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-weight: 400;
   font-style: normal;
   text-transform: uppercase;
@@ -13998,14 +13942,14 @@ div.collection_title_tags {
 .menu a:hover,
 .nav a:active,
 .nav a:focus {
-    font-size: 13px;
+    font-size: 12px;
   }
   .menu a,
 .menu a:visited,
 .menu a:hover,
 .menu a:active,
 .menu a:focus {
-    font-size: 13px;
+    font-size: 12px;
   }
   .menu li,
 #header span.menu_title,
@@ -14085,7 +14029,7 @@ div.collection_title_tags {
     bottom: 10px;
   }
   .featured_links a span {
-    font-size: 13px;
+    font-size: 12px;
   }
   .or {
     width: 100%;
@@ -14100,7 +14044,7 @@ div.collection_title_tags {
     text-align: left;
   }
   .featured_text {
-    font-size: 15px;
+    font-size: 14px;
     line-height: 1.7em;
   }
   #header {
@@ -14214,8 +14158,8 @@ h2 {
 }
 @font-face {
   font-family: "turbo";
-  src: url(//cdn.shopify.com/s/files/1/1412/4104/t/36/assets/turbo.eot?v=8031775066987996871681828226);
-  src: url(//cdn.shopify.com/s/files/1/1412/4104/t/36/assets/turbo.eot?v=8031775066987996871681828226) format("embedded-opentype"), url(//cdn.shopify.com/s/files/1/1412/4104/t/36/assets/turbo.woff?v=120982821278190993901681828226) format("woff"), url(//cdn.shopify.com/s/files/1/1412/4104/t/36/assets/turbo.ttf?v=40378865674909127311681828226) format("truetype"), url(//cdn.shopify.com/s/files/1/1412/4104/t/36/assets/turbo.svg?v=112470159262165616401681828226) format("svg");
+  src: url(//majykequipe.com/cdn/shop/t/38/assets/turbo.eot?v=8031775066987996871682290632);
+  src: url(//majykequipe.com/cdn/shop/t/38/assets/turbo.eot?v=8031775066987996871682290632) format("embedded-opentype"), url(//majykequipe.com/cdn/shop/t/38/assets/turbo.woff?v=120982821278190993901682290632) format("woff"), url(//majykequipe.com/cdn/shop/t/38/assets/turbo.ttf?v=40378865674909127311682290632) format("truetype"), url(//majykequipe.com/cdn/shop/t/38/assets/turbo.svg?v=112470159262165616401682290632) format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -14430,7 +14374,7 @@ form.search__form,
 .search__form input,
 .search__form input:active,
 .search__form input:focus {
-  font-family: Inter, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-weight: 400;
   font-style: normal;
   font-size: 12px;
@@ -14488,7 +14432,7 @@ form.search__form,
 .header_search_form input:focus,
 .header_search_form input:active {
   background-color: transparent;
-  font-family: Inter, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-weight: 400;
   font-style: normal;
   color: #ffffff;
@@ -15824,7 +15768,7 @@ footer .social_icons a:hover {
   font-weight: 300;
   font-style: normal;
   text-transform: uppercase;
-  font-size: 56px;
+  font-size: 46px;
   letter-spacing: 0px;
   line-height: 1.4em;
   margin-bottom: 15px;
@@ -15837,17 +15781,17 @@ footer .social_icons a:hover {
 }
 @media only screen and (max-width: 798px) {
   .caption .headline {
-    font-size: 37.333333333333336px;
+    font-size: 30.666666666666668px;
   }
 }
 @media only screen and (min-width: 799px) {
   .caption .headline {
-    font-size: 46.666666666666664px;
+    font-size: 38.333333333333336px;
   }
 }
 @media only screen and (min-width: 1025px) {
   .caption .headline {
-    font-size: 56px;
+    font-size: 46px;
   }
 }
 .caption .subtitle {
@@ -16292,7 +16236,7 @@ footer .social_icons a:hover {
 }
 .search__container input[type=text] {
   color: #333333;
-  font-size: 15px;
+  font-size: 14px;
   display: inline-block;
   border: 1px solid #000;
   min-height: 50px;
@@ -16458,7 +16402,7 @@ footer .social_icons a:hover {
     color: #333333;
   }.featured-link--half .description {
   position: relative;
-  font-size: 15;
+  font-size: 14;
   line-height: 1.5;
   margin-bottom: 20px;
 }@media only screen and (max-width: 798px) {
@@ -16948,7 +16892,7 @@ footer .social_icons a:hover {
 
 .price-ui-badge__sticker {
   background-color: #d54d4d;
-  font-family: Inter, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-weight: 400;
   font-style: normal;
   text-transform: none;
@@ -17021,7 +16965,7 @@ footer .social_icons a:hover {
 .surface-pick-up-embed {
   --surface-pick-up-embed-theme-success-color: #099E4D;
   --surface-pick-up-embed-theme-error-color: #DE3618;
-  --surface-pick-up-embed-theme-paragraph-font-size: 15px;
+  --surface-pick-up-embed-theme-paragraph-font-size: 14px;
   --surface-pick-up-embed-theme-paragraph-smaller-font-size: 0.85em;
   --surface-pick-up-embed-theme-body-font-weight-bold: 600;
   --surface-pick-up-embed-theme-body-text-color: #333333;
@@ -17038,7 +16982,7 @@ footer .social_icons a:hover {
 .surface-pick-up-item {
   --surface-pick-up-item-theme-success-color: #099E4D;
   --surface-pick-up-item-theme-error-color: #DE3618;
-  --surface-pick-up-item-theme-paragraph-font-size: 15px;
+  --surface-pick-up-item-theme-paragraph-font-size: 14px;
   --surface-pick-up-item-theme-paragraph-smaller-font-size: 0.85em;
   --surface-pick-up-item-theme-body-font-weight-bold: 600;
   --surface-pick-up-item-theme-body-text-color: #333333;
@@ -17079,7 +17023,7 @@ footer .social_icons a:hover {
 }
 
 .surface-pick-up__modal-subtitle {
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .surface-pick-up-embed__in-stock-icon,
@@ -17090,7 +17034,7 @@ footer .social_icons a:hover {
 }
 
 .surface-pick-up-item__pick-up-location {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: bold;
   letter-spacing: normal;
   text-transform: none;
@@ -17170,10 +17114,10 @@ footer .social_icons a:hover {
 .nav-desktop__tier-2-link,
 .nav-desktop__tier-3-link {
   position: relative;
-  font-family: Inter, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-weight: 400;
   font-style: normal;
-  font-size: 15px;
+  font-size: 14px;
   color: #ffffff;
   letter-spacing: 0px;
   text-rendering: optimizeLegibility;
@@ -17185,7 +17129,7 @@ footer .social_icons a:hover {
   .nav-desktop__tier-1-link,
 .nav-desktop__tier-2-link,
 .nav-desktop__tier-3-link {
-    font-size: 12px;
+    font-size: 15px;
   }
 }
 .nav-desktop__tier-1-link span,
@@ -17391,10 +17335,10 @@ footer .social_icons a:hover {
 }
 
 .widemenu__link {
-  font-family: Inter, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-weight: 400;
   font-style: normal;
-  font-size: 15px;
+  font-size: 14px;
   color: #ffffff;
   letter-spacing: 0px;
   text-rendering: optimizeLegibility;
@@ -17402,7 +17346,7 @@ footer .social_icons a:hover {
 }
 @media only screen and (max-width: 798px) {
   .widemenu__link {
-    font-size: 12px;
+    font-size: 15px;
   }
 }
 .widemenu__link:visited {
@@ -17877,10 +17821,10 @@ footer .social_icons a:hover {
 }
 .complementary-products__title {
   margin-bottom: 20px;
-  font-family: Roboto, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-weight: 700;
   font-style: normal;
-  font-size: 15px;
+  font-size: 14px;
   text-transform: none;
   letter-spacing: normal;
   color: #333333;
@@ -17953,7 +17897,7 @@ footer .social_icons a:hover {
   text-rendering: optimizeLegibility;
   padding: 0;
   margin-bottom: 5px;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 1.2;
 }
 .complementary-product__name a,
@@ -17970,7 +17914,7 @@ footer .social_icons a:hover {
   font-style: italic;
 }
 .complementary-product__price {
-  font-size: 15px;
+  font-size: 14px;
 }
 .complementary-product__price-text--now {
   display: none;
@@ -17997,10 +17941,10 @@ footer .social_icons a:hover {
   padding: 13px 20px;
   text-align: center;
   line-height: 1.2;
-  font-family: Inter, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-weight: normal;
   font-style: normal;
-  font-size: 14px;
+  font-size: 12px;
   text-transform: none;
   letter-spacing: 0px;
   word-break: break-word;
@@ -18157,12 +18101,16 @@ h1, h1 a, h2, h2 a, h3, h3 a, h4, h4 a, h5, h5 a, h6, h6 a, #nav li a, div.title
   /*background-color: white;*/
 }
 .mega-menu .dropdown_column{
-  padding-bottom: 5px;
+  padding-bottom: 10px;
 }
 
 .nav-desktop__tier-2 .mega-menu {
   padding: 0 7%;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
+
+
 /* Shopable Image --------------------------- */
 .shoppable-image {
   background-color: transparent !important;
@@ -18181,9 +18129,9 @@ transition: box-shadow 0.15s ease,transform 0.15s ease;
 will-change: box-shadow,transform;
 background: #FCFCFD;
 box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #d6d6e7;
-height: 48px;
-padding: 0 32px;
-font-size: 18px;
+/* height: 48px; */
+/* padding: 0 32px; */
+/* font-size: 18px; */
 border-radius: 6px;
 color: #333333;
 transition: box-shadow 0.15s ease,transform 0.15s ease;
@@ -18239,10 +18187,10 @@ transition: box-shadow 0.15s ease,transform 0.15s ease;
   width: 1.5em !important;
 }
 
-.cbb-frequently-bought-container.cbb-desktop-view{
+/* .cbb-frequently-bought-container.cbb-desktop-view{
   display: grid !important;
   justify-items: center !important;
-}
+} */
 
 .swatch-element:not(color) > label > .crossed-out {
   display: none;
@@ -18254,4 +18202,94 @@ transition: box-shadow 0.15s ease,transform 0.15s ease;
 
 .thumbnail-overlay .info{
   top: 86%;
+}
+
+.search-title {
+  color: black !important;
+}
+
+@media only screen and (min-width: 798px) {
+  .custom-remove-footer-heading{
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 798px){
+.purchase-details__buttons.purchase-details__spb--true .add_to_cart{
+  font-size: 18px;
+}
+}
+
+.custom-2-col-even, .cool-2-col{
+ display:grid;
+ grid-template-columns: 1fr 1fr; 
+ gap: 1em;
+}
+
+.custom-2-col-left{
+ display:grid;
+ grid-template-columns: 1fr 0.6fr; 
+}
+
+.fit-2-col-left{
+ display:grid;
+ grid-template-columns: 1fr 0.3fr; 
+}
+
+.custom-2-col-right{
+ display:grid;
+ grid-template-columns: 0.6fr 1fr; 
+}
+
+@media only screen and (max-width: 798px){
+.custom-2-col-even, .custom-2-col-left, .custom-2-col-right, .fit-2-col-left{
+ grid-template-columns: 1fr; 
+}
+}
+
+.collection_swatches .swatch span{
+border: #b5b5b5 1px solid;
+}
+
+.heat-table{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.cbb-frequently-bought-container .cbb-desktop-view {
+  height: auto;
+}
+
+.custom-size-chart-pop-up > img{
+  height: 75vh;
+  width: auto;
+}
+.custom-size-chart-pop-up > video{
+  height: 40vw;
+  width: auto;
+}
+
+@media only screen and (max-width: 798px) {
+  .cbb-mobile-view .cbb-frequently-bought-selector-list>li{
+    display: grid !important;
+    grid-template-columns: 1fr 9fr;
+    justify-items: center;
+  }
+  .cbb-recommendations-variant-select,
+  .cbb-frequently-bought-selector-label-regular-price,
+  .cbb-frequently-bought-selector-label-sale-price,
+  .cbb-frequently-bought-selector-label-compare-at-price {
+    grid-column: 2 span !important;
+  }
+  .custom-size-chart-pop-up > img{
+  width: 95vw;
+  height: auto;
+}
+  .custom-size-chart-pop-up > video{
+  width: 95vw;
+  height: auto;
+}
+  .product-popup__lightbox .fancybox-content{
+    padding: 5vw
+  }
 }
