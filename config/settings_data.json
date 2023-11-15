@@ -232,6 +232,34 @@
               "product": "contact-x-air-mesh-xc-pad",
               "menu_item": "Saddle Pads"
             }
+          },
+          "410c7f8d-82f9-46b4-8640-6674837b87eb": {
+            "type": "product_option",
+            "settings": {
+              "product": "superhorse-all-purpose-girth-neoprene-free-cool",
+              "menu_item": "Girths"
+            }
+          },
+          "b07b4fe7-e4f7-4480-bf40-dcae457aa75a": {
+            "type": "product_option",
+            "settings": {
+              "product": "saddle-saver-ergonomic-dressage-girth-with-buckle-guards",
+              "menu_item": "Girths"
+            }
+          },
+          "4006873a-5a68-4e09-be52-50d408e57c9a": {
+            "type": "product_option",
+            "settings": {
+              "product": "100-leather-tendon-horse-boot-with-snap-closures-boyd-martin-series",
+              "menu_item": "Pony\/Small Horse"
+            }
+          },
+          "b989035b-00f6-4911-9436-0f8a44402b32": {
+            "type": "product_option",
+            "settings": {
+              "product": "color-elite-xc-horse-boot-protection-eventing",
+              "menu_item": "Pony\/Small Horse"
+            }
           }
         },
         "block_order": [
@@ -240,7 +268,11 @@
           "ee651fe7-ce42-4ea0-b293-aa7e9d3366c9",
           "b25aba68-c1b0-4024-82ea-baeb88deb563",
           "715c48bc-18ab-4950-8e0f-d782282cdae1",
-          "a68c4bc8-c420-4755-8cd5-fdd40c0620b8"
+          "a68c4bc8-c420-4755-8cd5-fdd40c0620b8",
+          "410c7f8d-82f9-46b4-8640-6674837b87eb",
+          "b07b4fe7-e4f7-4480-bf40-dcae457aa75a",
+          "4006873a-5a68-4e09-be52-50d408e57c9a",
+          "b989035b-00f6-4911-9436-0f8a44402b32"
         ],
         "custom_css": [
           ".top-bar__menu {justify-content: center;}"
