@@ -1,4 +1,3 @@
-
 {
   "current": {
     "performance": "ludicrous",
@@ -202,14 +201,30 @@
           "1b90f811-7c34-41b9-a4b5-6b0cfc4705c2": {
             "type": "product_option",
             "settings": {
-              "product": "finishing-touch-metallic-fly-veil-bonnet-for-embroidery",
+              "product": "bionic-hybrid-performance-jump-boot",
               "menu_item": "Boots"
+            }
+          },
+          "ee651fe7-ce42-4ea0-b293-aa7e9d3366c9": {
+            "type": "product_option",
+            "settings": {
+              "product": "100-leather-tendon-horse-boot-with-snap-closures-boyd-martin-series",
+              "menu_item": "Boyd Martin Series"
+            }
+          },
+          "b25aba68-c1b0-4024-82ea-baeb88deb563": {
+            "type": "product_option",
+            "settings": {
+              "product": "100-percent-leather-hind-jump-horse-boot-with-snap-closures",
+              "menu_item": "Boyd Martin Series"
             }
           }
         },
         "block_order": [
           "1e8650a1-24d1-46fb-aa35-98d1ab884fa9",
-          "1b90f811-7c34-41b9-a4b5-6b0cfc4705c2"
+          "1b90f811-7c34-41b9-a4b5-6b0cfc4705c2",
+          "ee651fe7-ce42-4ea0-b293-aa7e9d3366c9",
+          "b25aba68-c1b0-4024-82ea-baeb88deb563"
         ],
         "custom_css": [
           ".top-bar__menu {justify-content: center;}"
