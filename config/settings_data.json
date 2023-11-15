@@ -218,13 +218,29 @@
               "product": "100-percent-leather-hind-jump-horse-boot-with-snap-closures",
               "menu_item": "Boyd Martin Series"
             }
+          },
+          "715c48bc-18ab-4950-8e0f-d782282cdae1": {
+            "type": "product_option",
+            "settings": {
+              "product": "majyk-equipe-estrella-sparkle-luxury-close-contact-saddle-pad",
+              "menu_item": "Saddle Pads"
+            }
+          },
+          "a68c4bc8-c420-4755-8cd5-fdd40c0620b8": {
+            "type": "product_option",
+            "settings": {
+              "product": "",
+              "menu_item": ""
+            }
           }
         },
         "block_order": [
           "1e8650a1-24d1-46fb-aa35-98d1ab884fa9",
           "1b90f811-7c34-41b9-a4b5-6b0cfc4705c2",
           "ee651fe7-ce42-4ea0-b293-aa7e9d3366c9",
-          "b25aba68-c1b0-4024-82ea-baeb88deb563"
+          "b25aba68-c1b0-4024-82ea-baeb88deb563",
+          "715c48bc-18ab-4950-8e0f-d782282cdae1",
+          "a68c4bc8-c420-4755-8cd5-fdd40c0620b8"
         ],
         "custom_css": [
           ".top-bar__menu {justify-content: center;}"
