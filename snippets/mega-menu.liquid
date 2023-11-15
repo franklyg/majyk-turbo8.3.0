@@ -30,11 +30,86 @@
       data-meganav-desktop
       data-meganav-handle="{{ section.settings.parent | handleize }}"
     >
-      {% for block in section.blocks %}
-        <div class="dropdown_column" {{ block.shopify_attributes }}>
+      <div class="mega-menu-panels">
+        
+        <div class="parent-links">
+          
+          {% for block in section.blocks %}
+            {% if block.type == 'column' %}
+              {% for i in (1..4) %}
+                
+                {% assign menuColumnNum = 'menu_' | append: i %}
+                {% assign menuColumn = block.settings[menuColumnNum]%}
+                
+                {% assign menuColumnLinkNum = 'menu_' | append: i | append: '_link' %}
+                {% assign menuColumnLink = block.settings[menuColumnLinkNum]%}
+                
+                {% if menuColumn != blank %}
+                  <div class="dropdown_column__menu" data-menu="{{ linklists[menuColumn].title }}">
+                    <ul class="dropdown_title">
+                      <li>
+                        <a {% if menuColumnLink %}href="{{ menuColumnLink }}"{% endif %}>{{ linklists[menuColumn].title }}</a>
+                      </li>
+                    </ul>
+                  </div>
+                {% endif %}
+                
+              {% endfor %}
+            {%endif%}
+          {% endfor %}
+          
+        </div>
+        
+        <div class="child-links-panel" data-menu>
+          {% for block in section.blocks %}
+            {% if block.type == 'column' %}
+              {% for i in (1..4) %}
+                
+                {% assign menuColumnNum = 'menu_' | append: i %}
+                {% assign menuColumn = block.settings[menuColumnNum]%}
+                
+                {% if menuColumn != blank %}
+                  <div class="child_links_panel_links" data-menu="{{ linklists[menuColumn].title }}">
+                    {% if linklists[menuColumn] != empty %}
+                      <ul class="child-links">
+                        {% for sublink in linklists[menuColumn].links %}
+                          <li>
+                            <a href="{{ sublink.url }}">{{ sublink.title }}</a>
+                          </li>
+                        {% endfor %}
+                      </ul>
+                    {% endif %}
+                    <div class="product-cards">
+                      {% for i in (1..2) %}
+                        
+                        {% assign productOptionNum = 'product_' | append: i %}
+                        {% assign productOption = block.settings[productOptionNum] %}
+                        
+                        {% if productOption != blank %}
+                          <div class="product_card">
+                            {{ productOption.image | image_url: 'master' }}
+                            {{ productOption.title }}
+                            {{ productOption.price | money_format }}
+                            
+                          </div>
+                        {% endif %}
+                        
+                      {% endfor %}
+                    </div>
+                  </div>
+                {% endif %}
+                
+              {% endfor %}
+            {%endif%}
+          {% endfor %}
+        </div>
+      </div>
+      
+      {% comment %} {% for block in section.blocks %}
+        {% comment %} <div class="dropdown_column" {{ block.shopify_attributes }}> {% endcomment %}
           {% if block.type == 'column' %}
             {% comment %}Richtext{% endcomment %}
-            {% if block.settings.richtext_top %}
+            {% if block.settings.richtext_top != blank %}
               <div class="mega-menu__richtext">
                 {{ block.settings.richtext_top }}
               </div>
@@ -58,86 +133,54 @@
                 </a>
               </div>
             {% endif %}
-
-            {% comment %}Menu 1{% endcomment %}
-            {% if block.settings.menu_1 != blank %}
-              <div class="dropdown_column__menu">
-                <ul class="dropdown_title">
-                  <li>
-                    <a {% if block.settings.menu_1_link %}href="{{ block.settings.menu_1_link }}"{% endif %}>{{ linklists[block.settings.menu_1].title }}</a>
-                  </li>
-                </ul>
-                {% if linklists[block.settings.menu_1] != empty %}
-                  <ul>
-                    {% for sublink in linklists[block.settings.menu_1].links %}
-                      <li>
-                        <a href="{{ sublink.url }}">{{ sublink.title }}</a>
-                      </li>
-                    {% endfor %}
+            
+            {% for i in (1..4) %}
+              
+              {% assign menuColumnNum = 'menu_' | append: i %}
+              {% assign menuColumn = block.settings[menuColumnNum]%}
+              
+              {% assign menuColumnLinkNum = 'menu_' | append: i | append: '_link' %}
+              {% assign menuColumnLink = block.settings[menuColumnLinkNum]%}
+              
+              {% if menuColumn != blank %}
+                <div class="dropdown_column__menu">
+                  <ul class="dropdown_title">
+                    <li>
+                      <a {% if menuColumnLink %}href="{{ menuColumnLink }}"{% endif %}>{{ linklists[menuColumn].title }}</a>
+                    </li>
                   </ul>
-                {% endif %}
-              </div>
-            {% endif %}
-
-            {% comment %}Menu 2{% endcomment %}
-            {% if block.settings.menu_2 != blank %}
-              <div class="dropdown_column__menu">
-                <ul class="dropdown_title">
-                  <li>
-                    <a {% if block.settings.menu_2_link %}href="{{ block.settings.menu_2_link }}"{% endif %}>{{ linklists[block.settings.menu_2].title }}</a>
-                  </li>
-                </ul>
-                {% if linklists[block.settings.menu_2] != empty %}
-                  <ul>
-                    {% for sublink in linklists[block.settings.menu_2].links %}
-                      <li>
-                        <a href="{{ sublink.url }}">{{ sublink.title }}</a>
-                      </li>
-                    {% endfor %}
-                  </ul>
-                {% endif %}
-              </div>
-            {% endif %}
-
-            {% comment %}Menu 3{% endcomment %}
-            {% if block.settings.menu_3 != blank %}
-              <div class="dropdown_column__menu">
-                <ul class="dropdown_title">
-                  <li>
-                    <a {% if block.settings.menu_3_link %}href="{{ block.settings.menu_3_link }}"{% endif %}>{{ linklists[block.settings.menu_3].title }}</a>
-                  </li>
-                </ul>
-                {% if linklists[block.settings.menu_3] != empty %}
-                  <ul>
-                    {% for sublink in linklists[block.settings.menu_3].links %}
-                      <li>
-                        <a href="{{ sublink.url }}">{{ sublink.title }}</a>
-                      </li>
-                    {% endfor %}
-                  </ul>
-                {% endif %}
-              </div>
-            {% endif %}
-
-            {% comment %}Menu 4{% endcomment %}
-            {% if block.settings.menu_4 != blank %}
-              <div class="dropdown_column__menu">
-                <ul class="dropdown_title">
-                  <li>
-                    <a {% if block.settings.menu_4_link %}href="{{ block.settings.menu_4_link }}"{% endif %}>{{ linklists[block.settings.menu_4].title }}</a>
-                  </li>
-                </ul>
-                {% if linklists[block.settings.menu_4] != empty %}
-                  <ul>
-                    {% for sublink in linklists[block.settings.menu_4].links %}
-                      <li>
-                        <a href="{{ sublink.url }}">{{ sublink.title }}</a>
-                      </li>
-                    {% endfor %}
-                  </ul>
-                {% endif %}
-              </div>
-            {% endif %}
+                  <div class="dropdown_side_panel">
+                    {% if linklists[menuColumn] != empty %}
+                      <ul class="child-links">
+                        {% for sublink in linklists[menuColumn].links %}
+                          <li>
+                            <a href="{{ sublink.url }}">{{ sublink.title }}</a>
+                          </li>
+                        {% endfor %}
+                      </ul>
+                    {% endif %}
+                    <div class="product-cards">
+                      {% for i in (1..2) %}
+                        
+                        {% assign productOptionNum = 'product_' | append: i %}
+                        {% assign productOption = block.settings[productOptionNum] %}
+                        
+                        {% if productOption != blank %}
+                          <div class="product_card">
+                            {{ productOption.image | image_url: 'master' }}
+                            {{ productOption.title }}
+                            {{ productOption.price | money_format }}
+                            
+                          </div>
+                        {% endif %}
+                        
+                      {% endfor %}
+                    </div>
+                  </div>
+                </div>
+              {% endif %}
+              
+            {% endfor %}
 
             {% comment %}Image with caption and link{% endcomment %}
             {% if block.settings.image_bottom != nil or block.settings.image_caption_bottom != blank %}
@@ -159,15 +202,15 @@
             {% endif %}
 
             {% comment %}Richtext{% endcomment %}
-            {% if block.settings.richtext_bottom %}
+            {% if block.settings.richtext_bottom != blank %}
               <div class="mega-menu__richtext">
                 {{ block.settings.richtext_bottom }}
               </div>
             {% endif %}
 
           {% endif %}
-        </div>
-      {% endfor %}
+        {% comment %} </div> {% endcomment %}
+      {% endfor %} {% endcomment %}
     </div>
   </details>
   <div class="mobile-meganav-source">

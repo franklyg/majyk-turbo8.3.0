@@ -2346,8 +2346,9 @@ class MobileMenuDrawer {
   close() {
     if (!this.el) return;
     if (this.animation.state === 'closed') return;
-
+    
     this.icon.classList.remove('open');
+    
     this.animation.animateTo('closed')
       .then(state => {
         if (state === 'closed') {

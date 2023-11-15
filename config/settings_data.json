@@ -190,6 +190,26 @@
     "sections": {
       "header": {
         "type": "header",
+        "blocks": {
+          "1e8650a1-24d1-46fb-aa35-98d1ab884fa9": {
+            "type": "product_option",
+            "settings": {
+              "product": "copy-of-estrella-carbon-100-leather-tendon-boots",
+              "menu_item": "Boots"
+            }
+          },
+          "1b90f811-7c34-41b9-a4b5-6b0cfc4705c2": {
+            "type": "product_option",
+            "settings": {
+              "product": "finishing-touch-metallic-fly-veil-bonnet-for-embroidery",
+              "menu_item": "Boots"
+            }
+          }
+        },
+        "block_order": [
+          "1e8650a1-24d1-46fb-aa35-98d1ab884fa9",
+          "1b90f811-7c34-41b9-a4b5-6b0cfc4705c2"
+        ],
         "custom_css": [
           ".top-bar__menu {justify-content: center;}"
         ],
@@ -205,7 +225,7 @@
           "logo_display_width": 205,
           "logo": "shopify:\/\/shop_images\/Word_in_white_inline.png",
           "logo_mobile": "shopify:\/\/shop_images\/Word_inline.png",
-          "main_linklist": "navigation-menu",
+          "main_linklist": "new-mega-menu",
           "main_linklist2": "",
           "vertical_menu": false,
           "dropdown_click": false,
@@ -293,7 +313,9 @@
               "menu_4_link": "",
               "image_caption_bottom": "",
               "image_link_bottom": "",
-              "richtext_bottom": ""
+              "richtext_bottom": "",
+              "product_1": "finishing-touch-metallic-fly-veil-bonnet-for-embroidery",
+              "product_2": "boyd-martin-stadium-open-front-hind-jump-horse-boot-showjumping-horse-show"
             }
           },
           "mega-menu-1-1": {
@@ -312,7 +334,9 @@
               "menu_4_link": "",
               "image_caption_bottom": "",
               "image_link_bottom": "",
-              "richtext_bottom": ""
+              "richtext_bottom": "",
+              "product_1": "",
+              "product_2": ""
             }
           },
           "mega-menu-1-2": {
@@ -331,7 +355,9 @@
               "menu_4_link": "",
               "image_caption_bottom": "",
               "image_link_bottom": "",
-              "richtext_bottom": ""
+              "richtext_bottom": "",
+              "product_1": "",
+              "product_2": ""
             }
           },
           "mega-menu-1-3": {
@@ -350,7 +376,9 @@
               "menu_4_link": "",
               "image_caption_bottom": "",
               "image_link_bottom": "",
-              "richtext_bottom": ""
+              "richtext_bottom": "",
+              "product_1": "",
+              "product_2": ""
             }
           },
           "mega-menu-1-4": {
@@ -370,7 +398,9 @@
               "menu_4_link": "",
               "image_caption_bottom": "",
               "image_link_bottom": "",
-              "richtext_bottom": ""
+              "richtext_bottom": "",
+              "product_1": "",
+              "product_2": ""
             }
           },
           "69e72abc-c86c-4657-9aa5-d92e288c39a3": {
@@ -390,7 +420,9 @@
               "menu_4_link": "",
               "image_caption_bottom": "",
               "image_link_bottom": "",
-              "richtext_bottom": ""
+              "richtext_bottom": "",
+              "product_1": "",
+              "product_2": ""
             }
           },
           "d029a244-da17-47b1-9439-ce8721a0cfcb": {
@@ -410,7 +442,9 @@
               "menu_4_link": "",
               "image_caption_bottom": "",
               "image_link_bottom": "",
-              "richtext_bottom": ""
+              "richtext_bottom": "",
+              "product_1": "",
+              "product_2": ""
             }
           },
           "277a68f7-6251-49ab-8310-1b9f727a85e5": {
@@ -430,7 +464,9 @@
               "menu_4_link": "",
               "image_caption_bottom": "",
               "image_link_bottom": "",
-              "richtext_bottom": ""
+              "richtext_bottom": "",
+              "product_1": "",
+              "product_2": ""
             }
           }
         },
@@ -448,7 +484,7 @@
 
         ],
         "settings": {
-          "parent": "Shop"
+          "parent": ""
         }
       },
       "mega-menu-2": {
@@ -456,6 +492,7 @@
         "blocks": {
           "adba5ab5-779f-458a-bef7-27ea8705281e": {
             "type": "column",
+            "disabled": true,
             "settings": {
               "richtext_top": "",
               "image_caption_top": "",
@@ -501,7 +538,7 @@
 
         ],
         "settings": {
-          "parent": "TECHNOLOGY"
+          "parent": ""
         }
       },
       "mega-menu-3": {
@@ -509,6 +546,7 @@
         "blocks": {
           "8da8c2c5-c43f-4b08-9d0e-5ef51155b1e1": {
             "type": "column",
+            "disabled": true,
             "settings": {
               "richtext_top": "",
               "image_caption_top": "",
@@ -551,7 +589,7 @@
           "mega-menu-3-0"
         ],
         "settings": {
-          "parent": "ABOUT US"
+          "parent": ""
         }
       },
       "mega-menu-4": {
@@ -559,6 +597,7 @@
         "blocks": {
           "mega-menu-4-0": {
             "type": "column",
+            "disabled": true,
             "settings": {
               "richtext_top": "",
               "image_caption_top": "",
@@ -601,7 +640,7 @@
           "mega-menu-4-4"
         ],
         "settings": {
-          "parent": "Care & Warranty"
+          "parent": ""
         }
       },
       "mega-menu-5": {
@@ -609,6 +648,7 @@
         "blocks": {
           "mega-menu-5-0": {
             "type": "column",
+            "disabled": true,
             "settings": {
               "richtext_top": "",
               "image_caption_top": "",
@@ -651,7 +691,7 @@
           "mega-menu-5-1"
         ],
         "settings": {
-          "parent": "Account"
+          "parent": ""
         }
       }
     },
@@ -669,14 +709,6 @@
         "type": "shopify:\/\/apps\/shoppable-videos-popup-video\/blocks\/app-embed-block\/102afb79-84a5-4a68-b521-b6161f958d5d",
         "disabled": false,
         "settings": {
-        }
-      },
-      "6573195592375385177": {
-        "type": "shopify:\/\/apps\/reelup-shoppable-videos-reels\/blocks\/reelup\/5e0256f9-2330-4b36-9ee7-2c3900572f7a",
-        "disabled": false,
-        "settings": {
-          "debugging_popup_script": "",
-          "debugging_pops_script": ""
         }
       },
       "5493738229337669960": {

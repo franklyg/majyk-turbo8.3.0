@@ -20,6 +20,7 @@
       </ul>
     </li>
   </template>
+  
   {% for link in linklists[menu].links %}
     {% if linklists[link.handle] == empty %}
       <li data-mobile-dropdown-rel="{{ link.handle }}" data-meganav-mobile-target="{{ link.title | handle }}">
@@ -38,39 +39,15 @@
         {% if link.url == 'http://' or link.url == '' or link.url == '/' or link.url == 'https://' or link.url == '#' %}
           <a data-no-instant href="{{ link.url }}" class="parent-link--false">
             <div class="mobile-menu-item-title" data-nav-title>{{ link.title }}</div>
-            <span class="right icon-down-arrow"></span>
           </a>
         {% else %}
-          <a data-no-instant href="{{ link.url }}" class="parent-link--true">
+          <button data-no-instant href="{{ link.url }}" class="parent-link--true" data-menu="{{ link.title }}">
             <div class="mobile-menu-item-title" data-nav-title>{{ link.title }}</div>
-            <span class="right icon-down-arrow"></span>
-          </a>
+          </button>
         {% endif %}
-        <ul>
-          {% for link in linklists[link.handle].links %}
-            {% if linklists[link.handle] == empty %}
-              <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-            {% else %}
-              <li class="sublink test">
-                {% if link.url == 'http://' or link.url == '' or link.url == '/' or link.url == 'https://' or link.url == '#' %}
-                  <a data-no-instant href="{{ link.url }}" class="parent-link--false">
-                    {{ link.title }} <span class="right icon-down-arrow"></span>
-                  </a>
-                {% else %}
-                  <a data-no-instant href="{{ link.url }}" class="parent-link--true">
-                    {{ link.title }} <span class="right icon-down-arrow"></span>
-                  </a>
-                {% endif %}
-                <ul>
-                  {% for link in linklists[link.handle].links %}
-                    <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-                  {% endfor %}
-                </ul>
-              </li>
-            {% endif %}
-          {% endfor %}
-        </ul>
       </li>
     {% endif %}
   {% endfor %}
+  
 {% endif %}
+
