@@ -4,7 +4,7 @@
 
 {% endcomment %}
 
-<ul class="widemenu">
+{% comment %} <ul class="widemenu">
   {% for menu_item in menu.links %}
     {% if linklists[menu_item.handle].links.size > 0 %}
       <li class="widemenu__submenu">
@@ -29,4 +29,85 @@
       </li>
     {% endif %}
   {% endfor %}
-</ul>
+</ul> {% endcomment %}
+
+{% comment %}
+
+  @param menu {Linklist} [Optional] Linklist for which to render nav items.
+
+{% endcomment %}
+
+<div class="widemenu widemenu-panels">
+  
+  <ul style="list-style-type: none; margin: 0;">
+    {% for menu_item in menu.links %}
+      {% if linklists[menu_item.handle].links.size > 0 %}
+        <li class="widemenu__submenu {% if forloop.index0 == 0 %} active{% endif %}" data-menu="{{ linklists[menu_item.handle].title }}">
+          <a href="{{ menu_item.url }}" class="widemenu__submenu-heading widemenu__link">
+            {{ menu_item.title | escape }}
+          </a>
+        </li>
+      {% else %}
+        <li class="widemenu__item">
+          <a href="{{ menu_item.url }}" class="widemenu__item-heading widemenu__link">
+            {{ menu_item.title | escape }}
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+  {% assign childLinksSize = false  %}
+  {% for menu_item in menu.links %}
+    {% if linklists[menu_item.handle].links.size > 0 %}
+      {% assign childLinksSize = true  %}
+    {% endif %}
+  {% endfor %}
+  <div class="child-links-panel" {% if childLinksSize == true%} style="display: block;" {% else %} style="display: none;" {%endif %}>
+    {% for menu_item in menu.links %}
+      
+      <div class="child_links_panel_links {% if forloop.index0 == 0 %} active{% endif %}" data-menu="{{ linklists[menu_item.handle].title }}">
+        {% if linklists[menu_item.handle].links.size > 0 %}
+          <li class="widemenu__submenu-items-link-list">
+            <ul class="widemenu__submenu-items">
+            {% for sub_item in linklists[menu_item.handle].links %}
+              <li class="widemenu__submenu-item">
+                <a href="{{ sub_item.url }}" class="widemenu__submenu-item-link widemenu__link">
+                  {{ sub_item.title | escape }}
+                </a>
+              </li>
+            {% endfor %}
+            </ul>
+          </li>
+        {% else %}
+          <li class="widemenu__item">
+            <a href="{{ menu_item.url }}" class="widemenu__item-heading widemenu__link">
+              {{ menu_item.title | escape }}
+            </a>
+          </li>
+        {% endif %}
+        
+        {% for block in section.blocks %}
+          {%- case block.type -%}
+            {%- when 'product_option' -%}
+              
+              {% if block.settings.menu_item == linklists[menu_item.handle].title %}
+                <a href="{{ block.settings.product.url }}" class="product-card">
+                  <div class="product-card__image">
+                    <img src="{{ block.settings.product.featured_image | img_url: 'master' }}" alt="{{ block.settings.product.featured_image.alt }}" />
+                  </div>
+                  <div class="product-card__product-information">
+                    <p>{{ block.settings.product.title }}</p>
+                    <p>{{ block.settings.product.price | money }}</p>
+                  </div>
+                </a>
+              {% endif %}
+              
+          {%- endcase -%}
+        {% endfor %}
+        
+      </div>
+    {% endfor %}
+  </div>
+  
+</div>
+

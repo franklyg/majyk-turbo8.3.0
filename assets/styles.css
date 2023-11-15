@@ -5082,7 +5082,7 @@ input[type=button].guest_button {
   display: grid;
   /*grid-auto-flow: column;*/
   /*grid-auto-columns: 1fr;*/
-  grid-template-columns: repeat(4,minmax(0,1fr))
+  grid-template-columns: repeat(4,minmax(0,1fr));
 }
 
 .dropdown_column li {

@@ -298,7 +298,7 @@
 
     {% section 'header' %}
 
-    <div class="mega-menu-container nav-desktop__tier-1">
+    {% comment %} <div class="mega-menu-container nav-desktop__tier-1">
       {% if settings.mega_menu_1 %}
         {% section 'mega-menu-1' %}
       {% endif %}
@@ -318,7 +318,7 @@
       {% if settings.mega_menu_5 %}
         {% section 'mega-menu-5' %}
       {% endif %}
-    </div>
+    </div> {% endcomment %}
 
     <div class="section-wrapper">
       {{ content_for_layout }}

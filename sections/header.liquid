@@ -153,6 +153,96 @@
         </ul>
       </div>
     </details>
+    
+    <div class="tier-one-panel">
+      {% for link in linklists[section.settings.main_linklist].links %}
+        <div class="tier-one-panel--links" data-menu="{{ link.title }}">
+          <div class="panel-header">
+            <h3>
+              {{ link.title }}
+              <svg class="back-button" width="28" height="24" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.939341 10.9393C0.353554 11.5251 0.353554 12.4749 0.939341 13.0607L10.4853 22.6066C11.0711 23.1924 12.0208 23.1924 12.6066 22.6066C13.1924 22.0208 13.1924 21.0711 12.6066 20.4853L4.12132 12L12.6066 3.51472C13.1924 2.92893 13.1924 1.97919 12.6066 1.3934C12.0208 0.807611 11.0711 0.807611 10.4853 1.3934L0.939341 10.9393ZM28 10.5L2 10.5V13.5L28 13.5V10.5Z" fill="#303564"/>
+              </svg>
+            </h3>
+          </div>
+          <ul>
+          {% for link in linklists[link.handle].links %}
+              {% if linklists[link.handle] == empty %}
+                <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+              {% else %}
+                <li class="sublink test">
+                  {% if link.url == 'http://' or link.url == '' or link.url == '/' or link.url == 'https://' or link.url == '#' %}
+                    <button data-no-instant class="parent-link--false">
+                      {{ link.title }} 
+                    </button>
+                  {% else %}
+                    <button data-no-instant class="parent-link--true" data-menu="{{ link.title }}">
+                      {{ link.title }}
+                    </button>
+                  {% endif %}
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+      {% endfor %}
+    </div>
+    
+    <div class="tier-two-panel">
+      {% for link in linklists[section.settings.main_linklist].links %}
+        {% for link in linklists[link.handle].links %}
+          <div class="tier-two-panel--links" data-menu="{{ link.title }}">
+            <h3>
+              {{ link.title }}
+              <svg class="back-button" width="28" height="24" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.939341 10.9393C0.353554 11.5251 0.353554 12.4749 0.939341 13.0607L10.4853 22.6066C11.0711 23.1924 12.0208 23.1924 12.6066 22.6066C13.1924 22.0208 13.1924 21.0711 12.6066 20.4853L4.12132 12L12.6066 3.51472C13.1924 2.92893 13.1924 1.97919 12.6066 1.3934C12.0208 0.807611 11.0711 0.807611 10.4853 1.3934L0.939341 10.9393ZM28 10.5L2 10.5V13.5L28 13.5V10.5Z" fill="#303564"/>
+              </svg>  
+            </h3>
+            <div class="tier-two-panel--scrollable">
+              <ul>
+                <li class="sublink">
+                  {% comment %} {% if linklists[link.handle] != empty %}
+                    {% if link.url == 'http://' or link.url == '' or link.url == '/' or link.url == 'https://' or link.url == '#' %}
+                      <a data-no-instant href="{{ link.url }}" class="parent-link--false">
+                        {{ link.title }} <span class="right icon-down-arrow"></span>
+                      </a>
+                    {% else %}
+                      <a data-no-instant href="{{ link.url }}" class="parent-link--true">
+                        {{ link.title }} <span class="right icon-down-arrow"></span>
+                      </a>
+                    {% endif %}
+                  {% endif %} {% endcomment %}
+                  <ul>
+                    {% for link in linklists[link.handle].links %}
+                      <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+                    {% endfor %}
+                  </ul>
+                </li>
+              </ul>
+              {% for block in section.blocks %}
+                {%- case block.type -%}
+                  {%- when 'product_option' -%}
+                    
+                    {% if block.settings.menu_item == link.title %}
+                      <a href="{{ block.settings.product.url }}" class="product-card">
+                        <div class="product-card__image">
+                          <img src="{{ block.settings.product.featured_image | img_url: 'master' }}" alt="{{ block.settings.product.featured_image.alt }}" />
+                        </div>
+                        <div class="product-card__product-information">
+                          <p>{{ block.settings.product.title }}</p>
+                          <p>{{ block.settings.product.price | money }}</p>
+                        </div>
+                      </a>
+                    {% endif %}
+                    
+                {%- endcase -%}
+              {% endfor %}
+            </div>
+          </div>
+        {% endfor %}
+        
+      {% endfor %}
+    </div>
 
     <a href="{{ routes.root_url }}" title="{{ shop.name | escape }}" class="mobile_logo logo">
       {% if section.settings.logo_mobile != blank %}
@@ -1002,6 +1092,24 @@
         {
           "value": "align_right",
           "label": "Right"
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "type": "product_option",
+      "name": "Product option",
+      "settings": [
+        {
+          "type": "product",
+          "id": "product",
+          "label": "Product"
+        },
+        {
+          "type": "text",
+          "id": "menu_item",
+          "label": "Menu associated"
         }
       ]
     }

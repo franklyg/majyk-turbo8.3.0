@@ -1969,6 +1969,10 @@ class NavigationDesktopParent {
     this.mouseover = () => {
       clearTimeout(this.closeTimer);
       this._open();
+      
+      // document.querySelectorAll('.widemenu .widemenu__submenu')[0].classList.add('active');
+      // document.querySelectorAll('.child_links_panel_links')[0].classList.add('active');
+      
     };
 
     this.mouseout = () => {
@@ -2348,6 +2352,12 @@ class MobileMenuDrawer {
     if (this.animation.state === 'closed') return;
 
     this.icon.classList.remove('open');
+    
+    document.querySelector('.mobile-menu-container').hasAttribute('style') ? document.querySelector('.mobile-menu-container').removeAttribute('style') : null;
+    
+    document.querySelector('.tier-one-panel').classList.remove('active');
+    document.querySelector('.tier-two-panel').classList.remove('active');
+    
     this.animation.animateTo('closed')
       .then(state => {
         if (state === 'closed') {
