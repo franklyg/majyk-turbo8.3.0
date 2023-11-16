@@ -260,6 +260,34 @@
               "product": "color-elite-xc-horse-boot-protection-eventing",
               "menu_item": "Pony\/Small Horse"
             }
+          },
+          "6252c340-879a-46b8-aff1-2bcf48903a6c": {
+            "type": "product_option",
+            "settings": {
+              "product": "fly-bye-boots",
+              "menu_item": "Accessories & Extras"
+            }
+          },
+          "e0711f0c-e94b-4bb3-9068-02f929aee46b": {
+            "type": "product_option",
+            "settings": {
+              "product": "hanging-boot-organizer",
+              "menu_item": "Accessories & Extras"
+            }
+          },
+          "5a03443b-8e54-496d-a5c4-ff9c5ef6c9e0": {
+            "type": "product_option",
+            "settings": {
+              "product": "uv-protection-fly-mask",
+              "menu_item": "Now on Sale!"
+            }
+          },
+          "38545c83-ebad-4a8b-83e5-f7bcb19b486a": {
+            "type": "product_option",
+            "settings": {
+              "product": "copy-of-majyk-equipe-estrella-sparkle-luxury-dressage-saddle-pad",
+              "menu_item": "Now on Sale!"
+            }
           }
         },
         "block_order": [
@@ -272,7 +300,11 @@
           "410c7f8d-82f9-46b4-8640-6674837b87eb",
           "b07b4fe7-e4f7-4480-bf40-dcae457aa75a",
           "4006873a-5a68-4e09-be52-50d408e57c9a",
-          "b989035b-00f6-4911-9436-0f8a44402b32"
+          "b989035b-00f6-4911-9436-0f8a44402b32",
+          "6252c340-879a-46b8-aff1-2bcf48903a6c",
+          "e0711f0c-e94b-4bb3-9068-02f929aee46b",
+          "5a03443b-8e54-496d-a5c4-ff9c5ef6c9e0",
+          "38545c83-ebad-4a8b-83e5-f7bcb19b486a"
         ],
         "custom_css": [
           ".top-bar__menu {justify-content: center;}"
