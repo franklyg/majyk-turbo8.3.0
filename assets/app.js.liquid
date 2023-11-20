@@ -543,7 +543,7 @@ $(() => {
     }
   }
 
-  function refreshCart(cart) {
+  refreshCart = function refreshCart(cart) {
     $('.cart_count').empty();
     const $cartBtn = $('.cart_count');
     const value = $cartBtn.text() || '0';

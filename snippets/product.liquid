@@ -276,13 +276,43 @@
                   {% comment %} George Custom Size Chart Start {% endcomment %}
                   {%- assign product_type_tag = false -%}
                   {%- for tag in product.tags -%}
+                    {%- if tag == 'Dressage Boot' -%}
+                      {%- assign product_type_tag = 'Dressage Boot' -%}
+                      {%- assign size_chart_src = 'https://cdn.shopify.com/s/files/1/1412/4104/files/dressage-size-chart-21-09-23.png?v=1695329273' -%}
+                    {%- endif -%}
+                    {%- if tag == 'Boyd Martin Jump Boot' -%}
+                      {%- assign product_type_tag = 'Boyd Martin Stadium' -%}
+                      {%- assign size_chart_src = 'https://cdn.shopify.com/s/files/1/1412/4104/files/Boyd-size-chart-21-09-23.png?v=1695329273' -%}
+                    {%- endif -%}
+                    {%- if tag == 'Leather Jump Boot' -%}
+                      {%- assign product_type_tag = 'Leather Jump Boot' -%}
+                      {%- assign size_chart_src = 'https://cdn.shopify.com/s/files/1/1412/4104/files/Leather-Jump-size-chart-21-09-23.png?v=1695329273' -%}
+                    {%- endif -%}
+                    {%- if tag == 'XC Boot' -%}
+                      {%- assign product_type_tag = 'XC Boot' -%}
+                      {%- assign size_chart_src = 'https://cdn.shopify.com/s/files/1/1412/4104/files/XC-boot-size-chart-21-09-23.png?v=1695329273' -%}
+                    {%- endif -%}
+                    {%- if tag == 'XC Boot' -%}
+                      {%- assign product_type_tag = 'XC Boot' -%}
+                      {%- assign size_chart_src = 'https://cdn.shopify.com/s/files/1/1412/4104/files/XC-boot-size-chart-21-09-23.png?v=1695329273' -%}
+                    {%- endif -%}
+                    {%- if tag == 'Vented' -%}
+                      {%- assign product_type_tag = 'Vented Infinity Boot' -%}
+                      {%- assign size_chart_src = 'https://cdn.shopify.com/s/files/1/1412/4104/files/infinity-boot-size-chart-21-09-23.png?v=1695329273' -%}
+                    {%- endif -%}
                     {%- if tag == 'Jump Boot' or tag == 'Horse Boot' -%}
-                      {%- assign product_type_tag = 'Boot' -%}
-                      {%- assign size_chart_src = 'https://cdn.shopify.com/s/files/1/1412/4104/files/New-Majyk-Size-Chart_Final_4560eede-fce4-45b8-892b-42f15bf0468a.jpg?v=1679157455' -%}
+                      {%- if product_type_tag == false -%}
+                        {%- assign product_type_tag = 'Boot' -%}
+                        {%- assign size_chart_src = 'https://cdn.shopify.com/s/files/1/1412/4104/files/Boot-size-chart-21-09-23.png?v=1695320373' -%}
+                      {%- endif -%} 
+                    {%- endif -%}
+                    {%- if tag == 'Bionic Hybrid' -%}
+                      {%- assign product_type_tag = 'Bionic Hybrid' -%}
+                      {%- assign size_chart_src = 'https://cdn.shopify.com/s/files/1/1412/4104/files/Bionic-hybrid-size-chart-21-09-23_c642c4dc-17b1-4e57-bc14-bf66541d2490.png?v=1698068615' -%}
                     {%- endif -%}
                     {%- if tag == 'over-reach' -%}
                       {%- assign product_type_tag = 'Bell Boot' -%}
-                      {%- assign size_chart_src = 'https://cdn.shopify.com/s/files/1/1412/4104/files/bell_boots_Size_Chart_with_xlarge.jpg?v=1679157432' -%}
+                      {%- assign size_chart_src = 'https://cdn.shopify.com/s/files/1/1412/4104/files/Bell-boots-chart-21-09-23.png?v=1695329273' -%}
                     {%- endif -%}
                     {%- if tag == 'girth' -%}
                       {%- assign product_type_tag = 'Girth' -%}
@@ -290,19 +320,19 @@
                     {%- endif -%}
                     {%- if tag == 'Saddle Pad' -%}
                       {%- assign product_type_tag = 'Saddle Pad' -%}
-                      {%- assign size_chart_src = 'https://cdn.shopify.com/s/files/1/1412/4104/files/sadle_pads_size_chart_New.png?v=1682201707' -%}
+                      {%- assign size_chart_src = 'https://cdn.shopify.com/s/files/1/1412/4104/files/Pad-size-chart-21-09-23.png?v=1695320372' -%}
                     {%- endif -%}
                     {%- if tag == 'Fly Sheet' -%}
                       {%- assign product_type_tag = 'Fly Sheet' -%}
-                      {%- assign size_chart_src = 'https://cdn.shopify.com/s/files/1/1412/4104/files/FLYSHEETS_revised_3.jpg?v=1679157455' -%}
+                      {%- assign size_chart_src = 'https://cdn.shopify.com/s/files/1/1412/4104/files/Fly_Bell-size-chart-21-09-23.png?v=1695320373' -%}
                     {%- endif -%}
                     {%- if tag == 'Fly Boots' -%}
                       {%- assign product_type_tag = 'Fly Boots' -%}
-                      {%- assign size_chart_src = 'https://cdn.shopify.com/s/files/1/1412/4104/files/Size_chart_Latest_105e324f-a3ad-4ff5-b452-9ed7358b58aa.jpg?v=1596412501' -%}
+                      {%- assign size_chart_src = 'https://cdn.shopify.com/s/files/1/1412/4104/files/fly-protection-size-chart-21-09-23.png?v=1695329273' -%}
                     {%- endif -%}
                     {%- if tag == 'Fly Mask' -%}
                       {%- assign product_type_tag = 'Fly Mask' -%}
-                      {%- assign size_chart_src = 'https://cdn.shopify.com/s/files/1/1412/4104/files/FLY_MASK_with_ears_revised_4.jpg?v=1679157455' -%}
+                      {%- assign size_chart_src = 'https://cdn.shopify.com/s/files/1/1412/4104/files/fly-protection-size-chart-21-09-23.png?v=1695329273' -%}
                     {%- endif -%}
                   {%- endfor -%}
 
@@ -321,7 +351,11 @@
                         data-type="inline"
                         data-no-instant
                       >
+                        {% if product_type_tag == 'Girth' %}
+                        <span class="product-popup__text">{{ product_type_tag }} Hands-On Video</span>
+                        {% else %} 
                         <span class="product-popup__text">{{ product_type_tag }} Size Chart</span>
+                        {% endif %}
                       </a>
                     </div>
 
@@ -331,15 +365,19 @@
                       style="display: none;"
                     >
                       <div class="product-popup__lightbox-wrapper">
+                        {% if product_type_tag == 'Girth' %}
+                        <h5 class="center">{{ product_type_tag }} Hands-On Video</h5>
+                        {% else %}
                         <h5 class="center">{{ product_type_tag }} Size Chart</h5>
+                        {% endif %}
                         <div class="feature-divider"></div>
-                        <div class="rte">
+                        <div class="rte custom-size-chart-pop-up">
                           {% if product_type_tag == 'Girth' %}
-                            <video style="height: 85vh" controls>
+                            <video controls>
                               <source src="{{ size_chart_src}}" type="video/mp4">
                             </video>
                           {% else %}
-                            <img src="{{ size_chart_src }}" style="height: 85vh;">
+                            <img src="{{ size_chart_src }}">
                           {% endif %}
                         </div>
                       </div>
