@@ -18077,7 +18077,7 @@ footer .social_icons a:hover {
 .widemenu {
   list-style: none;
   margin: 0;
-  padding: 15px 20px 20px;
+  padding: 15px 20px 0;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 50px;
@@ -18105,7 +18105,7 @@ footer .social_icons a:hover {
   }
 }
 .widemenu__link:visited {
-  color: {{ settings.nav_color }};
+  color: #000;
   text-decoration: none;
 }
 .widemenu__link:hover, .widemenu__link:active, .widemenu__link:focus {
@@ -18131,6 +18131,12 @@ footer .social_icons a:hover {
 .widemenu__item,
 .widemenu__item a{
   margin-bottom: 0;
+  width: 100%;
+  display: block;
+}
+.widemenu__submenu-item a{
+  width: 100%;
+  display: block;
 }
 .widemenu__submenu a,
 .widemenu__submenu button,
@@ -18164,8 +18170,7 @@ footer .social_icons a:hover {
   display: flex;
   flex-direction: column;
 }
-.child-links-panel a,
-.child-links-panel a:visited{
+.child-links-panel a{
   color: black;
 }
 
@@ -18176,19 +18181,17 @@ footer .social_icons a:hover {
 .child_links_panel_links.active{
   display: grid;
 }
+
 .child_links_panel_links .product-card{
   width: 100%;
   padding: 0 2rem 0;
-}
-.child_links_panel_links .product-card:first-of-type{
-  border-right: 1px solid #000;
-  border-left: 1px solid #000;
 }
 .child_links_panel_links .product-card img{
   max-width: 100%;
   height: 350px;
   display: block;
   margin: auto;
+  object-fit: contain;
 }
 .child_links_panel_links .product-card .product-card__product-information{
   display: flex;
@@ -18211,6 +18214,15 @@ footer .social_icons a:hover {
 }
 .dropdown_column__menu:hover .child-links{
   visibility: visible;
+}
+
+.sub-link-product{
+  display: none;
+}
+.sub-link-product.active{
+  display: grid;
+  grid-column: 2 / 4;
+  grid-template-columns: repeat(2,minmax(0,1fr));
 }
 
 .mega-menu-container {
@@ -19173,6 +19185,9 @@ border: #b5b5b5 1px solid;
   background: transparent;
   color: white;
   padding: 0;
+  width: 100%;
+  display: block;
+  text-align: left;
 }
 #mobile_menu,
 #mobile_menu li,
@@ -19204,6 +19219,8 @@ border: #b5b5b5 1px solid;
 .tier-two-panel--links li a{
   padding: 0;
   color: white;
+  width: 100%;
+  display: block;
 }
 
 .tier-two-panel--links li{

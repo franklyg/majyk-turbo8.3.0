@@ -194,21 +194,23 @@
           "1e8650a1-24d1-46fb-aa35-98d1ab884fa9": {
             "type": "product_option",
             "settings": {
-              "product": "copy-of-estrella-carbon-100-leather-tendon-boots",
+              "product_0": "copy-of-estrella-carbon-100-leather-tendon-boots",
+              "product_1": "finishing-touch-metallic-fly-veil-bonnet-for-embroidery",
               "menu_item": "Boots"
             }
           },
-          "1b90f811-7c34-41b9-a4b5-6b0cfc4705c2": {
+          "27d01963-b353-47b8-9366-7c4a2b0314db": {
             "type": "product_option",
             "settings": {
-              "product": "finishing-touch-metallic-fly-veil-bonnet-for-embroidery",
-              "menu_item": "Boots"
+              "product_0": "copy-of-estrella-carbon-100-leather-tendon-boots",
+              "product_1": "finishing-touch-metallic-fly-veil-bonnet-for-embroidery",
+              "menu_item": "Cool Compression Ice Boot"
             }
           }
         },
         "block_order": [
           "1e8650a1-24d1-46fb-aa35-98d1ab884fa9",
-          "1b90f811-7c34-41b9-a4b5-6b0cfc4705c2"
+          "27d01963-b353-47b8-9366-7c4a2b0314db"
         ],
         "custom_css": [
           ".top-bar__menu {justify-content: center;}"

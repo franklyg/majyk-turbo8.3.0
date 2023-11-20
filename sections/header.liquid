@@ -219,7 +219,51 @@
                   </ul>
                 </li>
               </ul>
+              
               {% for block in section.blocks %}
+                {% case block.type %}
+                  {% when 'product_option' %}
+                    
+                    {% if block.settings.menu_item == link.title %}
+                      <div class="sub-link-product-mobile" data-menu="{{ sub_item.title }}">
+                        {% for i in (0..1) %}
+                          {% assign productNum = 'product_' | append: i %}
+                          {% assign productType = block.settings[productNum] %}
+                          <a href="{{ productType.url }}" class="product-card">
+                            <div class="product-card__image">
+                              <img src="{{ productType.featured_image | img_url: 'master' }}" alt="{{ productType.featured_image.alt }}" />
+                            </div>
+                            <div class="product-card__product-information">
+                              <p>{{ productType.title }}</p>
+                              <p>{{ productType.price | money }}</p>
+                            </div>
+                          </a> 
+                        {% endfor %}
+                      </div>
+                    {% endif %}
+                    
+                  {% when 'collection_option' %}
+                    
+                    {% if block.settings.menu_item == link.title %}
+                      <div class="sub-link-product-mobile" data-menu="{{ sub_item.title }}">
+                        {% for product in collections[block.settings.collection_item].products limit: 2 %}
+                          <a href="{{ product.url }}" class="product-card">
+                            <div class="product-card__image">
+                              <img src="{{ product.featured_image | img_url: 'master' }}" alt="{{ product.alt }}" />
+                            </div>
+                            <div class="product-card__product-information">
+                              <p>{{ product.title }}</p>
+                              <p>{{ product.price | money }}</p>
+                            </div>
+                          </a>
+                        {% endfor %}
+                      </div>
+                    {% endif %}
+                    
+                {% endcase %}
+              {% endfor %}
+              
+              {% comment %} {% for block in section.blocks %}
                 {%- case block.type -%}
                   {%- when 'product_option' -%}
                     
@@ -236,7 +280,7 @@
                     {% endif %}
                     
                 {%- endcase -%}
-              {% endfor %}
+              {% endfor %} {% endcomment %}
             </div>
           </div>
         {% endfor %}
@@ -1103,13 +1147,34 @@
       "settings": [
         {
           "type": "product",
-          "id": "product",
-          "label": "Product"
+          "id": "product_0",
+          "label": "Product one"
+        },
+        {
+          "type": "product",
+          "id": "product_1",
+          "label": "Product two"
         },
         {
           "type": "text",
           "id": "menu_item",
-          "label": "Menu associated"
+          "label": "Associated menu link"
+        }
+      ]
+    },
+    {
+      "type": "collection_option",
+      "name": "Collection option",
+      "settings": [
+        {
+          "type": "collection",
+          "id": "collection_item",
+          "label": "Collection"
+        },
+        {
+          "type": "text",
+          "id": "menu_item",
+          "label": "Associated menu link"
         }
       ]
     }
