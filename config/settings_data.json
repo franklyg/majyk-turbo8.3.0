@@ -1,4 +1,3 @@
-
 {
   "current": {
     "performance": "ludicrous",
@@ -207,11 +206,108 @@
               "product_1": "finishing-touch-metallic-fly-veil-bonnet-for-embroidery",
               "menu_item": "Cool Compression Ice Boot"
             }
+          },
+          "ee651fe7-ce42-4ea0-b293-aa7e9d3366c9": {
+            "type": "product_option",
+            "settings": {
+              "product": "100-leather-tendon-horse-boot-with-snap-closures-boyd-martin-series",
+              "menu_item": "Boyd Martin Series"
+            }
+          },
+          "b25aba68-c1b0-4024-82ea-baeb88deb563": {
+            "type": "product_option",
+            "settings": {
+              "product": "100-percent-leather-hind-jump-horse-boot-with-snap-closures",
+              "menu_item": "Boyd Martin Series"
+            }
+          },
+          "715c48bc-18ab-4950-8e0f-d782282cdae1": {
+            "type": "product_option",
+            "settings": {
+              "product": "majyk-equipe-estrella-sparkle-luxury-close-contact-saddle-pad",
+              "menu_item": "Saddle Pads"
+            }
+          },
+          "a68c4bc8-c420-4755-8cd5-fdd40c0620b8": {
+            "type": "product_option",
+            "settings": {
+              "product": "contact-x-air-mesh-xc-pad",
+              "menu_item": "Saddle Pads"
+            }
+          },
+          "410c7f8d-82f9-46b4-8640-6674837b87eb": {
+            "type": "product_option",
+            "settings": {
+              "product": "superhorse-all-purpose-girth-neoprene-free-cool",
+              "menu_item": "Girths"
+            }
+          },
+          "b07b4fe7-e4f7-4480-bf40-dcae457aa75a": {
+            "type": "product_option",
+            "settings": {
+              "product": "saddle-saver-ergonomic-dressage-girth-with-buckle-guards",
+              "menu_item": "Girths"
+            }
+          },
+          "4006873a-5a68-4e09-be52-50d408e57c9a": {
+            "type": "product_option",
+            "settings": {
+              "product": "100-leather-tendon-horse-boot-with-snap-closures-boyd-martin-series",
+              "menu_item": "Pony\/Small Horse"
+            }
+          },
+          "b989035b-00f6-4911-9436-0f8a44402b32": {
+            "type": "product_option",
+            "settings": {
+              "product": "color-elite-xc-horse-boot-protection-eventing",
+              "menu_item": "Pony\/Small Horse"
+            }
+          },
+          "6252c340-879a-46b8-aff1-2bcf48903a6c": {
+            "type": "product_option",
+            "settings": {
+              "product": "fly-bye-boots",
+              "menu_item": "Accessories & Extras"
+            }
+          },
+          "e0711f0c-e94b-4bb3-9068-02f929aee46b": {
+            "type": "product_option",
+            "settings": {
+              "product": "hanging-boot-organizer",
+              "menu_item": "Accessories & Extras"
+            }
+          },
+          "5a03443b-8e54-496d-a5c4-ff9c5ef6c9e0": {
+            "type": "product_option",
+            "settings": {
+              "product": "uv-protection-fly-mask",
+              "menu_item": "Now on Sale!"
+            }
+          },
+          "38545c83-ebad-4a8b-83e5-f7bcb19b486a": {
+            "type": "product_option",
+            "settings": {
+              "product": "copy-of-majyk-equipe-estrella-sparkle-luxury-dressage-saddle-pad",
+              "menu_item": "Now on Sale!"
+            }
           }
         },
         "block_order": [
           "1e8650a1-24d1-46fb-aa35-98d1ab884fa9",
           "27d01963-b353-47b8-9366-7c4a2b0314db"
+          "1b90f811-7c34-41b9-a4b5-6b0cfc4705c2",
+          "ee651fe7-ce42-4ea0-b293-aa7e9d3366c9",
+          "b25aba68-c1b0-4024-82ea-baeb88deb563",
+          "715c48bc-18ab-4950-8e0f-d782282cdae1",
+          "a68c4bc8-c420-4755-8cd5-fdd40c0620b8",
+          "410c7f8d-82f9-46b4-8640-6674837b87eb",
+          "b07b4fe7-e4f7-4480-bf40-dcae457aa75a",
+          "4006873a-5a68-4e09-be52-50d408e57c9a",
+          "b989035b-00f6-4911-9436-0f8a44402b32",
+          "6252c340-879a-46b8-aff1-2bcf48903a6c",
+          "e0711f0c-e94b-4bb3-9068-02f929aee46b",
+          "5a03443b-8e54-496d-a5c4-ff9c5ef6c9e0",
+          "38545c83-ebad-4a8b-83e5-f7bcb19b486a"
         ],
         "custom_css": [
           ".top-bar__menu {justify-content: center;}"
